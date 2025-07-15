@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Merge Fellas
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -33,3 +34,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# Merge-Fellas
+>>>>>>> 68817a29ce1b3343519af5e3c88ecf8d62d5962a
