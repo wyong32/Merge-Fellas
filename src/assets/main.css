@@ -1,0 +1,109 @@
+@import './base.css';
+@import './content.css';
+
+/* 全局重置和基础样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 性能优化：减少重绘和重排 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 优化滚动性能 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 减少布局位移 */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+  font-display: swap; /* 优化字体加载 */
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* 通用布局容器 */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* 全站背景容器 */
+.page-container {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* 主内容区域 */
+.main-content {
+  margin-top: 85px;
+  padding-top: 2rem;
+}
+
+/* 内容蒙版区域 */
+.content-area {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* 平板端响应式 */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100;
+    padding: 0 1rem;
+  }
+
+  .main-content {
+    margin-top: 80px;
+    padding-top: 1.5rem;
+  }
+
+  .content-area {
+    padding: 0.8rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .main-content {
+    margin-top: 70px;
+    padding-top: 1rem;
+  }
+
+  .content-area {
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+}
