@@ -270,19 +270,30 @@ export default {
           box-sizing: border-box !important;
         `
 
-        // 获取游戏容器（包含蒙版和iframe）
+        // 获取游戏容器和操作栏
         const gameContainer = document.querySelector('.iframe-container')
+        const gameControls = document.querySelector('.game-controls')
+        const iframe = gameContainer ? gameContainer.querySelector('iframe') : null
 
-        if (gameContainer) {
+        if (gameContainer && iframe) {
           // 保存原始样式和父容器，以便退出时恢复
           window.theaterModeData = {
             originalParent: gameContainer.parentNode,
             originalStyles: gameContainer.style.cssText,
             originalClassList: gameContainer.className,
+            originalControlsStyles: gameControls ? gameControls.style.cssText : '',
+            originalControlsParent: gameControls ? gameControls.parentNode : null,
+            iframeSrc: iframe.src,
+            iframeTitle: iframe.title,
           }
 
-          // 移动整个游戏容器到覆盖层（包含蒙版和iframe）
-          gameContainer.style.cssText = `
+          // 隐藏原始游戏容器
+          gameContainer.style.display = 'none'
+
+          // 创建新的全屏游戏容器
+          const fullscreenGameContainer = document.createElement('div')
+          fullscreenGameContainer.id = 'theater-mode-game-container'
+          fullscreenGameContainer.style.cssText = `
             width: calc(100vw - 40px) !important;
             height: calc(100vh - 40px) !important;
             border: none !important;
@@ -290,10 +301,45 @@ export default {
             box-shadow: 0 0 30px rgba(0,0,0,0.8) !important;
             background: transparent !important;
             aspect-ratio: unset !important;
+            position: relative !important;
+            overflow: hidden !important;
           `
 
-          // 将游戏容器移动到覆盖层
-          overlay.appendChild(gameContainer)
+          // 创建新的iframe（使用相同的src）
+          const newIframe = document.createElement('iframe')
+          newIframe.src = iframe.src
+          newIframe.title = iframe.title
+          newIframe.style.cssText = `
+            width: 100% !important;
+            height: 100% !important;
+            border: none !important;
+            border-radius: 8px !important;
+          `
+          newIframe.setAttribute('frameborder', '0')
+          newIframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture')
+          newIframe.setAttribute('scrolling', 'no')
+
+          fullscreenGameContainer.appendChild(newIframe)
+          overlay.appendChild(fullscreenGameContainer)
+
+          // 如果操作栏存在，也移动到覆盖层并应用Theater Mode样式
+          if (gameControls) {
+            gameControls.style.cssText = `
+              position: absolute !important;
+              bottom: 20px !important;
+              left: 50% !important;
+              transform: translateX(-50%) !important;
+              background: rgba(0, 0, 0, 0.7) !important;
+              border-radius: 8px !important;
+              padding: 8px 16px !important;
+              z-index: 100000 !important;
+              display: flex !important;
+              justify-content: space-between !important;
+              align-items: center !important;
+              color: white !important;
+            `
+            overlay.appendChild(gameControls)
+          }
         }
 
         // 创建关闭按钮
@@ -350,20 +396,28 @@ export default {
       // 恢复游戏容器到原始位置
       if (window.theaterModeData) {
         const gameContainer = document.querySelector('.iframe-container')
-        if (gameContainer && window.theaterModeData.originalParent) {
-          // 恢复原始样式
+        if (gameContainer) {
+          // 恢复原始样式并显示
           gameContainer.style.cssText = window.theaterModeData.originalStyles
           gameContainer.className = window.theaterModeData.originalClassList
+          gameContainer.style.display = ''
+        }
 
-          // 将游戏容器移回原始父容器
-          window.theaterModeData.originalParent.appendChild(gameContainer)
+        // 恢复操作栏的原始样式和位置
+        const gameControls = document.querySelector('.game-controls')
+        if (gameControls && window.theaterModeData.originalControlsParent) {
+          // 恢复原始样式
+          gameControls.style.cssText = window.theaterModeData.originalControlsStyles
+
+          // 将操作栏移回原始父容器
+          window.theaterModeData.originalControlsParent.appendChild(gameControls)
         }
 
         // 清除临时数据
         delete window.theaterModeData
       }
 
-      // 移除覆盖层
+      // 移除覆盖层和全屏游戏容器
       const overlay = document.getElementById('theater-mode-overlay')
       if (overlay) {
         document.body.removeChild(overlay)
@@ -374,15 +428,46 @@ export default {
     },
     toggleNativeFullscreen() {
       if (!document.fullscreenElement) {
-        this.$refs.gameAreaRef?.requestFullscreen().catch((err) => {
-          console.error(`全屏模式启动失败: ${err.message} (${err.name})`)
-        })
+        // 如果游戏还没有加载，先加载游戏
+        if (!this.gameLoaded) {
+          this.loadGame()
+          // 等待iframe加载完成后再进入全屏
+          this.$nextTick(() => {
+            setTimeout(() => {
+              this.$refs.gameAreaRef?.requestFullscreen().catch((err) => {
+                console.error(`全屏模式启动失败: ${err.message} (${err.name})`)
+              })
+            }, 500) // 给iframe更多时间加载
+          })
+        } else {
+          // 游戏已加载，直接进入全屏
+          this.$refs.gameAreaRef?.requestFullscreen().catch((err) => {
+            console.error(`全屏模式启动失败: ${err.message} (${err.name})`)
+          })
+        }
       } else {
         document.exitFullscreen()
       }
     },
     onFullscreenChange() {
       this.isNativeFullscreen = !!document.fullscreenElement
+
+      // 如果进入全屏，确保iframe能够正确显示和接收焦点
+      if (this.isNativeFullscreen && this.gameLoaded) {
+        this.$nextTick(() => {
+          const iframe = this.$refs.gameAreaRef?.querySelector('iframe')
+          if (iframe) {
+            // 确保iframe可见
+            iframe.style.display = 'block'
+            iframe.style.visibility = 'visible'
+
+            // 尝试聚焦到iframe
+            setTimeout(() => {
+              iframe.focus()
+            }, 100)
+          }
+        })
+      }
     },
   },
   mounted() {
@@ -604,6 +689,50 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 12px;
+}
+
+/* 原生全屏时的样式 */
+.iframe-container:fullscreen {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe-container:fullscreen iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: #000;
+}
+
+/* 兼容不同浏览器的全屏样式 */
+.iframe-container:-webkit-full-screen {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe-container:-webkit-full-screen iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: #000;
+}
+
+.iframe-container:-moz-full-screen {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iframe-container:-moz-full-screen iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: #000;
 }
 
 /* iframe蒙版样式 */
