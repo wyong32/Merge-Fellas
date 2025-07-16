@@ -186,6 +186,8 @@ const loadVideo = () => {
 
 .video-container iframe {
   border-radius: 12px;
+  width: 100%;
+  height: 100%;
 }
 
 /* 视频蒙版样式 */
