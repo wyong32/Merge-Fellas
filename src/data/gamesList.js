@@ -14,6 +14,7 @@ export const gamesList = [
       keywords: "2048 Italian Brainrot, Italian memes, brainrot, merge game, puzzle, free online game"
     },
     detailsHtml: `
+      <img src="/images/games/games_01_01.png" style="float: right; width: 300px" alt="2048 Italian Brainrot Game Preview" />
       <h3>2048 Italian Brainrot</h3>
       <p><strong>2048 Italian Brainrot</strong> is not your average number-merging game. It takes the classic 2048 formula and injects it with a potent dose of Italian chaos, opera singing, and meme-fueled absurdity. Welcome to the most unpredictable and hilarious puzzle game you'll ever play. Whether you're a fan of cursed internet humor or just love seeing numbers scream in Italian, <em>2048 Italian Brainrot</em> delivers an unforgettable experience.</p>
   
@@ -69,6 +70,7 @@ export const gamesList = [
       keywords: 'Italian Brainrot Clicker 2, idle game, clicker, meme game, free online, Italian memes, brainrot'
     },
     detailsHtml: `
+      <img src="/images/games/games_02_01.png" style="float: right; width: 300px" alt="Italian Brainrot Clicker 2 Game Preview" />
       <h3>Italian Brainrot Clicker 2</h3>
       <p><strong>Italian Brainrot Clicker 2</strong> is the chaotic sequel to the original meme clicker that broke the internet. Dive once again into a world where logic melts into opera vocals, espresso-fueled capitalism, and aggressive clicking. If you thought the first game was strange, <strong>Italian Brainrot Clicker 2</strong> takes things to a whole new level of ridiculousness.</p>
   
@@ -133,6 +135,7 @@ export const gamesList = [
       keywords: 'Italian Brainrot Obby Parkour, meme game, obstacle course, parkour, obby, free online game, brainrot'
     },
     detailsHtml: `
+      <img src="/images/games/games_03_01.png" style="float: right; width: 300px" alt="Italian Brainrot Obby Parkour Game Preview" />
       <h3>Italian Brainrot Obby Parkour</h3>
       <p><strong>Italian Brainrot Obby Parkour</strong> is a chaotic meme-fueled platformer where cursed Italian aesthetics meet impossible jumps, screaming opera, and unpredictable brainrot energy. In this fast-paced obstacle course challenge, you'll run, leap, and scream your way through progressively unhinged parkour stages — each more cursed than the last.</p>
   
