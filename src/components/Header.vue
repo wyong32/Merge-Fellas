@@ -35,6 +35,9 @@
         class="hamburger-btn mobile-only"
         @click="toggleMobileNav"
         :class="{ active: isMobileNavOpen }"
+        :aria-label="isMobileNavOpen ? 'Close navigation menu' : 'Open navigation menu'"
+        :aria-expanded="isMobileNavOpen"
+        aria-controls="mobile-nav"
       >
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
@@ -43,7 +46,13 @@
     </div>
 
     <!-- 移动端导航抽屉 -->
-    <div class="mobile-nav" :class="{ open: isMobileNavOpen }">
+    <div
+      id="mobile-nav"
+      class="mobile-nav"
+      :class="{ open: isMobileNavOpen }"
+      role="navigation"
+      aria-label="Mobile navigation menu"
+    >
       <ul class="mobile-nav-list">
         <li v-for="item in navItems" :key="item.name" class="mobile-nav-item">
           <router-link :to="item.route" class="mobile-nav-link" @click="closeMobileNav">
