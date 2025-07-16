@@ -21,7 +21,7 @@ Allow: /assets/
 Allow: /public/
 
 # 站点地图位置
-Sitemap: https://your-domain.com/sitemap.xml 
+Sitemap: https://mergefellasgames.org/sitemap.xml 
 
 # 优化爬取延迟
 Crawl-delay: 1

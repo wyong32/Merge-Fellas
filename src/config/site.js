@@ -1,6 +1,6 @@
 // Website Basic Configuration
 export const SITE_CONFIG = {
-  DOMAIN: 'https://your-domain.com', // TODO: Replace with actual domain
+  DOMAIN: 'https://mergefellasgames.org', // TODO: Replace with actual domain
   NAME: 'Merge Fellas',
   TITLE: 'Merge Fellas - The Ultimate Merge Puzzle Game',
   DESCRIPTION: 'Experience Merge Fellas, the most popular merge puzzle game! Free online game, no download required, play on mobile and desktop.',
