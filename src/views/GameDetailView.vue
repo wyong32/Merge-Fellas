@@ -27,7 +27,7 @@
         </div>
 
         <!-- 关于我们板块标题 -->
-        <h2 class="section-title">About</h2>
+        <h2 class="section-title">About Merge Fellas</h2>
         <div class="content-area">
           <!-- 关于我们板块 -->
           <section class="about-section">

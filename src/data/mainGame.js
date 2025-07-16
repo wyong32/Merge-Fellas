@@ -2,11 +2,11 @@ export const mainGame = {
   id: 'merge-fellas-main',
   title: 'Merge Fellas',
   iframeUrl: 'https://1games.io/game/merge-brainrot/',
-  videoSrc: 'https://www.youtube.com/embed/LFEZn-HbZdk',
+  // videoSrc: 'https://www.youtube.com/embed/LFEZn-HbZdk',
   gameImageSrc: '/images/game-home.webp',
   gameImageAlt: 'Merge Fellas Game Preview',
-  videoImageSrc: '/images/home-video.webp', 
-  videoImageAlt: 'Merge Fellas Video Preview',
+  // videoImageSrc: '/images/home-video.webp', 
+  // videoImageAlt: 'Merge Fellas Video Preview',
   detailsHtml: `
     <section>
     <h3>What is Merge Fellas?</h3>

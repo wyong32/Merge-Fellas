@@ -1,6 +1,6 @@
 <template>
   <!-- 主英雄区域 -->
-  <section class="hero-section">
+  <section class="hero-section" :class="{ 'theater-mode': isWebFullscreen }">
     <!-- 三栏布局 -->
     <div class="hero-content" :class="{ 'mobile-layout': isMobile }">
       <!-- 左侧游戏列表：仅在桌面端显示 -->
@@ -61,6 +61,7 @@
             <!-- 实际iframe -->
             <iframe
               v-if="gameLoaded"
+              id="game-frame"
               :src="mainGame.iframeUrl"
               :title="mainGame.title"
               frameborder="0"
@@ -249,8 +250,127 @@ export default {
     },
     toggleWebFullscreen() {
       this.isWebFullscreen = !this.isWebFullscreen
-      // When entering web fullscreen, ensure body scrolling is disabled
-      document.body.style.overflow = this.isWebFullscreen ? 'hidden' : ''
+
+      if (this.isWebFullscreen) {
+        // 创建全屏覆盖层
+        const overlay = document.createElement('div')
+        overlay.id = 'theater-mode-overlay'
+        overlay.style.cssText = `
+          position: fixed !important;
+          top: 0 !important;
+          left: 0 !important;
+          width: 100vw !important;
+          height: 100vh !important;
+          background: #1a1a2e !important;
+          z-index: 99999 !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          padding: 20px !important;
+          box-sizing: border-box !important;
+        `
+
+        // 获取游戏容器（包含蒙版和iframe）
+        const gameContainer = document.querySelector('.iframe-container')
+
+        if (gameContainer) {
+          // 保存原始样式和父容器，以便退出时恢复
+          window.theaterModeData = {
+            originalParent: gameContainer.parentNode,
+            originalStyles: gameContainer.style.cssText,
+            originalClassList: gameContainer.className,
+          }
+
+          // 移动整个游戏容器到覆盖层（包含蒙版和iframe）
+          gameContainer.style.cssText = `
+            width: calc(100vw - 40px) !important;
+            height: calc(100vh - 40px) !important;
+            border: none !important;
+            border-radius: 8px !important;
+            box-shadow: 0 0 30px rgba(0,0,0,0.8) !important;
+            background: transparent !important;
+            aspect-ratio: unset !important;
+          `
+
+          // 将游戏容器移动到覆盖层
+          overlay.appendChild(gameContainer)
+        }
+
+        // 创建关闭按钮
+        const closeBtn = document.createElement('button')
+        closeBtn.innerHTML = '✕'
+        closeBtn.style.cssText = `
+          position: absolute !important;
+          top: 30px !important;
+          right: 30px !important;
+          width: 50px !important;
+          height: 50px !important;
+          background: rgba(255,255,255,0.9) !important;
+          border: none !important;
+          border-radius: 50% !important;
+          font-size: 24px !important;
+          font-weight: bold !important;
+          cursor: pointer !important;
+          z-index: 100000 !important;
+          color: #333 !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          transition: all 0.3s ease !important;
+        `
+
+        closeBtn.onmouseover = () => {
+          closeBtn.style.background = 'rgba(255,255,255,1) !important'
+          closeBtn.style.transform = 'scale(1.1) !important'
+        }
+
+        closeBtn.onmouseout = () => {
+          closeBtn.style.background = 'rgba(255,255,255,0.9) !important'
+          closeBtn.style.transform = 'scale(1) !important'
+        }
+
+        closeBtn.onclick = (event) => {
+          event.preventDefault()
+          event.stopPropagation()
+          this.exitTheaterMode()
+        }
+
+        overlay.appendChild(closeBtn)
+
+        // 添加到body
+        document.body.appendChild(overlay)
+        document.body.style.overflow = 'hidden'
+      } else {
+        this.exitTheaterMode()
+      }
+    },
+    exitTheaterMode() {
+      this.isWebFullscreen = false
+
+      // 恢复游戏容器到原始位置
+      if (window.theaterModeData) {
+        const gameContainer = document.querySelector('.iframe-container')
+        if (gameContainer && window.theaterModeData.originalParent) {
+          // 恢复原始样式
+          gameContainer.style.cssText = window.theaterModeData.originalStyles
+          gameContainer.className = window.theaterModeData.originalClassList
+
+          // 将游戏容器移回原始父容器
+          window.theaterModeData.originalParent.appendChild(gameContainer)
+        }
+
+        // 清除临时数据
+        delete window.theaterModeData
+      }
+
+      // 移除覆盖层
+      const overlay = document.getElementById('theater-mode-overlay')
+      if (overlay) {
+        document.body.removeChild(overlay)
+      }
+
+      // 恢复body滚动
+      document.body.style.overflow = ''
     },
     toggleNativeFullscreen() {
       if (!document.fullscreenElement) {
@@ -287,6 +407,19 @@ export default {
 /* 主英雄区域样式 */
 .hero-section {
   margin-bottom: 2rem;
+}
+
+/* Theater Mode 样式 */
+.hero-section.theater-mode {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 三栏布局样式 */
@@ -392,24 +525,69 @@ export default {
   width: 100%;
 }
 
-.game-view-container.web-fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
+/* Theater Mode 时的游戏容器样式 */
+.hero-section.theater-mode .hero-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
+  max-width: none;
   width: 100vw;
   height: 100vh;
-  z-index: 1000;
-  background: #000;
-  padding: 1rem;
-  border-radius: 0;
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: none;
+  gap: 0;
 }
 
-.game-view-container.web-fullscreen .iframe-container {
-  flex-grow: 1;
-  height: 0;
-  border-radius: 1rem;
-  overflow: hidden;
+.hero-section.theater-mode .main-game-area {
+  width: 90vw;
+  max-width: 1800px;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section.theater-mode .game-view-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section.theater-mode .iframe-container {
+  border-radius: 0;
+  width: 100%;
+  flex: 1;
+  max-height: none;
+}
+
+/* Theater Mode 时隐藏侧边栏 */
+.hero-section.theater-mode .games-sidebar {
+  display: none;
+}
+
+.hero-section.theater-mode .mobile-games-section {
+  display: none;
+}
+
+/* Theater Mode 时的操作栏样式 */
+.hero-section.theater-mode .game-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 8px 16px;
+  z-index: 10000;
 }
 
 .iframe-container {

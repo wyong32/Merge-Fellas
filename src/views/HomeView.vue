@@ -6,7 +6,7 @@
     <!-- 主内容区域 -->
     <main class="main-content">
       <div class="container">
-        <h1 class="page-title">Start Your Merge Adventure</h1>
+        <h1 class="page-title">Start Merge Fellas</h1>
         <div class="content-area">
           <!-- 游戏板块组件 -->
           <GameBoard />
@@ -20,18 +20,13 @@
         </div>
 
         <!-- 关于我们板块标题 -->
-        <h2 class="section-title">About</h2>
+        <h2 class="section-title">About Merge Fellas</h2>
         <div class="content-area">
           <!-- 关于我们板块 -->
           <section class="about-section">
             <div class="about-content">
-              <!-- 左侧内容 -->
-              <div class="about-text">
-                <div v-html="mainGame.detailsHtml" class="main-game-details content-wrapper"></div>
-              </div>
-
-              <!-- 右侧视频 -->
-              <div class="about-video">
+              <!-- 视频（如果有的话） -->
+              <div v-if="mainGame.videoSrc" class="about-video">
                 <div class="video-container">
                   <!-- 视频蒙版层 -->
                   <div
@@ -62,6 +57,11 @@
                     height="100%"
                   ></iframe>
                 </div>
+              </div>
+
+              <!-- 文字内容 -->
+              <div class="about-text">
+                <div v-html="mainGame.detailsHtml" class="main-game-details content-wrapper"></div>
               </div>
             </div>
           </section>
@@ -134,16 +134,16 @@ const loadVideo = () => {
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
-  align-items: start;
 }
 
-/* 左侧文本内容 */
+/* 文本内容 */
 .about-text {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .main-game-details,
@@ -163,10 +163,11 @@ const loadVideo = () => {
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* 右侧视频内容 */
+/* 视频内容 */
 .about-video {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .video-container {
@@ -176,7 +177,9 @@ const loadVideo = () => {
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  aspect-ratio: 3/2;
+  aspect-ratio: 16/9;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .video-container:hover {

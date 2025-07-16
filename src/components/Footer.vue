@@ -33,12 +33,26 @@
             </ul>
           </div>
           <div class="footer-links">
-            <h4>Game Categories</h4>
+            <h4>Hot Game</h4>
             <ul>
-              <li><router-link to="/"></router-link></li>
-              <li><router-link to="/"></router-link></li>
-              <li><router-link to="/"></router-link></li>
-              <li><router-link to="/"></router-link></li>
+              <li>
+                <router-link to="/games/2048-italian-brainrot">2048 Italian Brainrot</router-link>
+              </li>
+              <li>
+                <router-link to="/games/italian-brainrot-jigsaw"
+                  >Italian Brainrot Jigsaw</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/games/tralalero-tralala-clicker"
+                  >Tralalero Tralala Clicker</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/games/italian-brainrot-puzzle-battle"
+                  >Italian Brainrot: Puzzle & Battle</router-link
+                >
+              </li>
             </ul>
           </div>
           <div class="footer-links">
