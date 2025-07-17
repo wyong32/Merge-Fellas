@@ -14,45 +14,39 @@ export const gamesList = [
       keywords: "2048 Italian Brainrot, Italian memes, brainrot, merge game, puzzle, free online game"
     },
     detailsHtml: `
-      <img src="/images/games/games_01_01.png" style="float: right; width: 300px" alt="2048 Italian Brainrot Game Preview" />
-      <h3>2048 Italian Brainrot</h3>
-      <p><strong>2048 Italian Brainrot</strong> is not your average number-merging game. It takes the classic 2048 formula and injects it with a potent dose of Italian chaos, opera singing, and meme-fueled absurdity. Welcome to the most unpredictable and hilarious puzzle game you'll ever play. Whether you're a fan of cursed internet humor or just love seeing numbers scream in Italian, <em>2048 Italian Brainrot</em> delivers an unforgettable experience.</p>
-  
-      <h4>What Is 2048 Italian Brainrot?</h4>
-      <p><strong>2048 Italian Brainrot</strong> is a browser-based puzzle game where players merge tiles with matching numbers, aiming to reach the ultimate goal — the 2048 tile. However, instead of simple numeric evolution, each tile in <strong>2048 Italian Brainrot</strong> represents a progressively weirder and louder Italian character. From opera-singing chefs to haunted espresso cups, every tile merge results in an explosion of animated chaos and musical confusion.</p>
-  
-      <h4>Gameplay Features</h4>
-      <ul>
-        <li><strong>Meme-Infused Tiles:</strong> Every number represents an Italian meme — some familiar, others wildly original.</li>
-        <li><strong>Opera SFX:</strong> Each merge is accompanied by over-the-top Italian opera notes, sometimes screamed.</li>
-        <li><strong>Visual Brainrot:</strong> The art style rapidly escalates from adorable to deranged as tiles merge.</li>
-        <li><strong>Bonus Combos:</strong> Special tile combinations unlock "Brainrot Mode", triggering animated meme storms.</li>
-        <li><strong>Playable on Browser:</strong> No download needed. Just open and begin your descent into the madness of <strong>2048 Italian Brainrot</strong>.</li>
-      </ul>
-  
-      <h4>Why Play 2048 Italian Brainrot?</h4>
-      <p>Because <strong>2048 Italian Brainrot</strong> doesn’t just test your logic skills — it tests your sanity. Every merge feels like a fever dream. One minute you're matching 32s, the next minute you're being shouted at by a digital Nonna holding a pizza. The audio-visual assault, combined with actually solid puzzle mechanics, makes <strong>2048 Italian Brainrot</strong> a game unlike any other. It's perfect for fans of traditional 2048, but even better for those who want to laugh, cry, and question reality.</p>
-  
-      <h4>Strategy Tips for 2048 Italian Brainrot</h4>
-      <ol>
-        <li><strong>Corner Strategy:</strong> Keep your highest tile in one corner. This helps maintain control during chaos.</li>
-        <li><strong>Plan Ahead:</strong> Think two moves ahead — memes come fast, but strategy beats the scream.</li>
-        <li><strong>Mute Option:</strong> Need focus? There's a mute button — but beware, you’ll miss out on the full <strong>2048 Italian Brainrot</strong> experience.</li>
-        <li><strong>Use Brainrot Mode Wisely:</strong> Triggering meme storms too early may ruin your combo potential.</li>
-      </ol>
-  
-      <h4>The Community Loves 2048 Italian Brainrot</h4>
-      <p>The online gaming community has embraced <strong>2048 Italian Brainrot</strong> as both a puzzle challenge and a meme masterpiece. Players share their highest tiles, weirdest merge results, and favorite voice lines across social media. Memes from <strong>2048 Italian Brainrot</strong> have gone viral on TikTok, Reddit, and Discord servers, especially those related to Italian pop culture and brainrot aesthetics.</p>
-  
-      <h4>Developer Notes</h4>
-      <p>The creators of <strong>2048 Italian Brainrot</strong> were inspired by the collision of logical thinking and illogical visuals. Built using HTML5 and JavaScript, the game is optimized for smooth play in any modern browser. Frequent updates bring new meme packs, sound effects, and even regional Italian dialect support.</p>
-  
-      <h4>Play 2048 Italian Brainrot Now</h4>
-      <p><strong>2048 Italian Brainrot</strong> is completely free to play and accessible via your browser. No downloads. No registration. Just pure Italian puzzle brainrot chaos. Whether you’re chasing high scores or enjoying the memes, one thing is guaranteed — you’ll never look at 2048 the same way again.</p>
-  
-      <h4>Keywords: 2048 Italian Brainrot</h4>
-      <p>We’ve mentioned <strong>2048 Italian Brainrot</strong> over 50 times in this description — and for good reason. It’s a game that blends addictive number-merging mechanics with over-the-top Italian brainrot energy. Every time you see "2048 Italian Brainrot," we want you to hear a distant opera scream and feel the presence of a pixelated Vespa approaching. That’s the kind of magic this game brings.</p>
-    `
+    <h3>About 2048 Italian Brainrot</h3>
+<p>The classic 2048 puzzle just got a hilarious twist! Welcome to <strong>2048 Italian Brainrot</strong>, where instead of merging numbers, you combine tiles of viral Italian Brainrot characters to unlock new ones. From Tung Tung Tung Sahur to Chimpanzini Bananini and more, get ready to meet the funniest memes around. Start merging and see how far your Brainrot collection can go!</p>
+
+<p>An incredible blend of 2048 and the Italian Brainrot trend.</p>
+
+<img src="/images/games/games_01_01.png" style="float: right; width: 40%" alt="2048 Italian Brainrot Game Preview" />
+
+<p>Developed by Azgames, 2048 Italian Brainrot is a fun and relaxing block puzzle game that blends the classic 2048 gameplay with the viral charm of Italian Brainrot characters. It follows the same mechanics as 2048, but instead of seemingly boring numerical tiles, players combine Italian Brainrot characters, like Tralalero Tralala, Bombardiro Crocodilo, etc., to reveal other ones. The goal is to reach the highest scores and meet as many Brainrot characters as possible.</p>
+
+<h3>How to Play 2048 Italian Brainrot?</h3>
+<p>The game revolves around sliding tiles within a square grid in four directions&mdash;up, down, left, and right&mdash;to merge matching Italian Brainrot characters.</p>
+
+<h4>But remember, the board fills up quickly!</h4>
+<p>Every move spawns a new Brainrot tile, and the board fills up quickly if you're not careful. To continue, you must keep merging tiles strategically without running out of space. Your game ends instantly when there&rsquo;s no possible move; thus, it&rsquo;s always crucial to keep space open for further moves.</p>
+
+<h4>Aim for your best score</h4>
+<p>The more tiles you merge successfully and the higher the level of Italian Brainrot characters you create, the more points you&rsquo;ll earn. To maximize your score, focus on merging high-value characters instead of basic ones.</p>
+
+<h4>Control guides:</h4>
+<ul>
+    <li>Swipe or use the arrow keys to move Italian Brainrot in the desired direction&mdash;up, down, left, or right.</li>
+</ul>
+
+<h3>Key Features of the Game</h3>
+<ul>
+    <li>Familiar yet addictive gameplay, featuring a dozen Italian Brainrot memes.</li>
+    <li>Simple and intuitive controls, with swipe or arrow key movements.</li>
+    <li>Progressive difficulty as the board fills up and each move becomes more crucial.</li>
+    <li>No downloads are needed; players can play the game directly from a web browser.</li>
+</ul>
+
+<p>It&rsquo;s now your turn to merge Italian Brainrot characters, unlock new ones, and aim for your best score! Play <strong>2048 Italian Brainrot</strong> and merge your way to the ultimate Italian Brainrot memes.</p>
+`
   },
 
   {
@@ -70,53 +64,35 @@ export const gamesList = [
       keywords: 'Italian Brainrot Clicker 2, idle game, clicker, meme game, free online, Italian memes, brainrot'
     },
     detailsHtml: `
-      <img src="/images/games/games_02_01.png" style="float: right; width: 300px" alt="Italian Brainrot Clicker 2 Game Preview" />
-      <h3>Italian Brainrot Clicker 2</h3>
-      <p><strong>Italian Brainrot Clicker 2</strong> is the chaotic sequel to the original meme clicker that broke the internet. Dive once again into a world where logic melts into opera vocals, espresso-fueled capitalism, and aggressive clicking. If you thought the first game was strange, <strong>Italian Brainrot Clicker 2</strong> takes things to a whole new level of ridiculousness.</p>
-  
-      <h4>What is Italian Brainrot Clicker 2?</h4>
-      <p><strong>Italian Brainrot Clicker 2</strong> is a bizarre idle clicker game where every click generates “Brainrot Energy,” used to summon progressively more cursed Italian entities. From cappuccino-powered gondolas to screaming pasta abominations, every upgrade you unlock propels you deeper into the unholy fusion of memes, opera, and economic brainrot. Built for speed, absurdity, and infinite laughs, <em>Italian Brainrot Clicker 2</em> is the ultimate idle game for lovers of cursed content.</p>
-  
-      <h4>Core Features</h4>
-      <ul>
-        <li><strong>More Clicks, More Chaos:</strong> Every click unleashes auditory madness and Italian visuals that defy reason.</li>
-        <li><strong>Upgrades Galore:</strong> Hire Nonna Army Units, invest in Risotto Mines, and build a Spaghetti Stock Exchange.</li>
-        <li><strong>Opera Overdrive:</strong> Unlock “Tenor Mode” to scream your way into thousands of Brainrot per second.</li>
-        <li><strong>Unlockable Lore:</strong> Discover hidden backstories behind each meme and cursed character.</li>
-        <li><strong>Offline Earnings:</strong> Even while you sleep, your Italian empire continues to rot — gloriously.</li>
-      </ul>
-  
-      <h4>Why Play Italian Brainrot Clicker 2?</h4>
-      <p>Unlike traditional clickers, <strong>Italian Brainrot Clicker 2</strong> turns every interaction into a theatrical mess of music, memes, and madness. Whether you're new to idle games or a clicker veteran, <strong>Italian Brainrot Clicker 2</strong> brings something unique: flavor. And we’re not just talking about tomato sauce.</p>
-      <p>From the pixelated shouting baristas to spaghetti-powered nuclear reactors, <strong>Italian Brainrot Clicker 2</strong> builds an immersive and hilarious economy of insanity. If you've ever wanted to overthrow reality with a chorus of lasagna, this is your chance.</p>
-  
-      <h4>Upgrade Examples in Italian Brainrot Clicker 2</h4>
-      <ul>
-        <li><strong>Gelato Generator</strong> – Produces 100 Brainrot/sec and screams in Sicilian dialect.</li>
-        <li><strong>Gondola Factory</strong> – Automates your clicks via sentient boats powered by mozzarella.</li>
-        <li><strong>Opera Singers Union</strong> – Boosts all sound-based income by 500%.</li>
-        <li><strong>Mozzarella Mines</strong> – Unlocks after 1 million Brainrot, lets you mine cursed dairy from beneath Naples.</li>
-      </ul>
-  
-      <h4>Tips for Climbing the Brainrot Ladder</h4>
-      <ol>
-        <li><strong>Click Efficiently:</strong> Invest in upgrades that automate quickly — your fingers will thank you.</li>
-        <li><strong>Use Opera Bursts:</strong> Time your Tenor Mode for maximum Brainrot multipliers.</li>
-        <li><strong>Don’t Skip Lore:</strong> Each character in <strong>Italian Brainrot Clicker 2</strong> has hidden upgrades and unique effects.</li>
-        <li><strong>Balance Power and Pasta:</strong> Too many pasta units without sound boosters? You’ll bottleneck. Stay balanced!</li>
-      </ol>
-  
-      <h4>Community and Memes</h4>
-      <p><strong>Italian Brainrot Clicker 2</strong> has spawned a thriving community of meme creators, YouTubers, and TikTokers who share their cursed builds and highscore screenshots. Speedclicking challenges, opera scream contests, and lore-theory videos have all helped elevate <strong>Italian Brainrot Clicker 2</strong> into a full-blown meme phenomenon.</p>
-  
-      <h4>Built for Browsers</h4>
-      <p>No installation needed! <strong>Italian Brainrot Clicker 2</strong> runs flawlessly in your browser, optimized for both desktop and mobile play. Updates are rolled out weekly, featuring new upgrades, sound packs, and brainrot modifiers based on player feedback.</p>
-  
-      <h4>Start Clicking Now!</h4>
-      <p>There's no time to wait. The world of <strong>Italian Brainrot Clicker 2</strong> is calling — loudly, operatically, and with too much parmesan. Start your journey into pasta-powered madness and build your legacy as the true Clicker Don of Italy.</p>
-  
-      <h4>Remember the Name: Italian Brainrot Clicker 2</h4>
-      <p>We've mentioned <strong>Italian Brainrot Clicker 2</strong> over 50 times because it deserves it. This isn’t just a game. It’s a lifestyle. A chaotic, meme-soaked, aggressively Italian lifestyle. Whether you're here for the clicker mechanics or the cursed aesthetic, one thing is for sure — you won't forget the name <strong>Italian Brainrot Clicker 2</strong>.</p>
+    <h3>About Italian Brainrot Clicker 2</h3>
+<p>Inspired by the viral TikTok "Italian Brainrot" meme trend, <strong>Italian Brainrot Clicker 2</strong> offers a hilarious clicker game experience where you’ll encounter Tralalero Tralala, Tung Tung Tung Sahur, Bombardino Crocodilo, and many other bizarre characters. Jump in, click or tap fast, and combine speed with a smart upgrade strategy to unlock every absurd Italian Brainrot monster.</p>
+
+<h3>How to Play Italian Brainrot Clicker 2?</h3>
+<p>Tap or click on the character to earn points, then spend them on upgrades. That’s the core of most clicker games, and this one is no exception!</p>
+
+<p>To start, click fast to gain your first points. Initially, your clicking speed determines your points; however, as you progress, your upgrade strategy plays a big role in your point generation process.</p>
+
+<h4>Upgrades: The key to boosting your clicking power</h4>
+<p>There are 18 unlockable upgrade options, categorized into 2 major types: Some boost the points you earn per click or tap, while others trigger passive scores that let you gain points automatically over time—no tapping or clicking required. Here are a few upgrades you can purchase with modest points:</p>
+<ul>
+    <li><strong>Cursor:</strong> +1 Brainrot per click &mdash; Price: 50 points.</li>
+    <li><strong>Auto Click:</strong> +1 Brainrot per second &mdash; Price: 125 points.</li>
+    <li><strong>Mr Clicker:</strong> +5 Brainrot per click &mdash; Price: 500 points.</li>
+    <li><strong>Tralalero Tralala Farm:</strong> +6 Brainrot per second &mdash; Price: 1,100 points.</li>
+</ul>
+<p>You can purchase any upgrades repeatedly with no limit, as long as you have enough points to afford them. Invest in upgrades wisely and experience the power of your upgrade options.</p>
+
+<h3>Meet 12 Italian Brainrot Characters</h3>
+<p>Obviously, this must be the best part of this clicker game. Unlock the characters one by one and hear their Italian voices—that’s definitely the greatest part of this game. You'll first meet the Nike-wearing Tralalero Tralala, then soon encounter Bombardino Crocodilo, and more Italian Brainrot monsters when you reach certain score milestones, such as 50,000, 1,000,000, and higher Brainrot points.</p>
+
+<h4>Game controls:</h4>
+<ul>
+    <li>Click or tap on the character to generate points.</li>
+    <li>Click or tap available upgrade options to select and activate them.</li>
+</ul>
+
+<h3>The Most Hilarious, Absurd Clicker Game is Here&mdash;Are You Ready?</h3>
+<p>Get ready to jump in and unlock all the bizarre Italian Brainrot characters. Don't just click or tap wildly to earn points. Instead, combine your clicking speed with powerful upgrade options to maximize points earned. Tung Tung Tung Sahur, Lirili Larila, Chimpanzini Bananini, Zibra Zubra Zibralini, Burbaloni Luliloli, and more—you will meet them all in this hilarious clicker game. Enjoy the game on Azgames.io now!</p>
     `
   },
 
@@ -135,50 +111,81 @@ export const gamesList = [
       keywords: 'Italian Brainrot Obby Parkour, meme game, obstacle course, parkour, obby, free online game, brainrot'
     },
     detailsHtml: `
-      <img src="/images/games/games_03_01.png" style="float: right; width: 300px" alt="Italian Brainrot Obby Parkour Game Preview" />
-      <h3>Italian Brainrot Obby Parkour</h3>
-      <p><strong>Italian Brainrot Obby Parkour</strong> is a chaotic meme-fueled platformer where cursed Italian aesthetics meet impossible jumps, screaming opera, and unpredictable brainrot energy. In this fast-paced obstacle course challenge, you'll run, leap, and scream your way through progressively unhinged parkour stages — each more cursed than the last.</p>
-  
-      <h4>What Is Italian Brainrot Obby Parkour?</h4>
-      <p><strong>Italian Brainrot Obby Parkour</strong> is a browser-based obby game that takes the concept of "obstacle course" and drowns it in marinara, Vespas, and operatic screams. As the player, your job is simple: survive. Navigate pixel-perfect jumps over giant spaghetti pits, dodge flying pizzas, leap across crumbling cheese blocks, and stay calm as Italian voices shout nonsense at you every time you fail.</p>
-  
-      <h4>Game Features</h4>
-      <ul>
-        <li><strong>40+ Cursed Levels:</strong> Each stage in <strong>Italian Brainrot Obby Parkour</strong> introduces new meme hazards and visual chaos.</li>
-        <li><strong>Opera-Fueled Movement:</strong> Jump boosts are powered by dramatic arias. Double jumps? Only if you scream “MAMMA MIA!” at the right time.</li>
-        <li><strong>Customizable Brainrot Avatars:</strong> Play as a screaming meatball, a sentient espresso, or even Nonna with parkour shoes.</li>
-        <li><strong>Instant Fail Hilarity:</strong> Deaths trigger ridiculous animations and voice lines that keep the chaos fresh.</li>
-        <li><strong>Multiplayer Mode:</strong> Race other players in real time through the cursed parkour gauntlet.</li>
-      </ul>
-  
-      <h4>Why You Should Play Italian Brainrot Obby Parkour</h4>
-      <p><strong>Italian Brainrot Obby Parkour</strong> isn't just about jumping — it’s about surviving in a world where every platform wants to kill you with mozzarella. Whether you're new to obby games or a hardcore parkour platforming fan, <strong>Italian Brainrot Obby Parkour</strong> delivers a completely unfiltered brainrot experience. The visuals are cursed. The audio is louder than necessary. The game makes no sense. And yet... it's beautiful.</p>
-      <p>The moment you hear your character shout “PASTA!” while flying off a giant breadstick, you'll know you're home. <strong>Italian Brainrot Obby Parkour</strong> doesn’t play by traditional game rules — it plays by the laws of Italian meme physics.</p>
-  
-      <h4>Popular Challenges in Italian Brainrot Obby Parkour</h4>
-      <ul>
-        <li><strong>Lasagna Lava Run</strong> – A molten cheese volcano chases you while opera blasts in the background.</li>
-        <li><strong>The Salami Spinner</strong> – Balance on rotating salami platforms as wind from a giant accordion knocks you off.</li>
-        <li><strong>Nonna’s Final Judgment</strong> – Face judgment from an 8-meter-tall Italian grandma boss. Survive her ravioli rain attacks.</li>
-        <li><strong>Pizza Prophecy Gauntlet</strong> – A level that makes zero sense, but the pizza tiles whisper “Go left” in Latin.</li>
-      </ul>
-  
-      <h4>Gameplay Tips for Italian Brainrot Obby Parkour</h4>
-      <ol>
-        <li><strong>Don’t Rush:</strong> Each level in <strong>Italian Brainrot Obby Parkour</strong> is full of hidden traps. Observe before you leap.</li>
-        <li><strong>Use the Screams:</strong> Scream-based sound inputs (yes, really) unlock hidden jump boosts in secret stages.</li>
-        <li><strong>Customize Your Avatar:</strong> Lighter avatars have better mid-air control. Espresso Cups > Meatball Men.</li>
-        <li><strong>Practice Timing:</strong> Some obstacles require frame-perfect inputs. Channel your inner Italian platformer god.</li>
-      </ol>
-  
-      <h4>The Brainrot Community</h4>
-      <p>Fans of <strong>Italian Brainrot Obby Parkour</strong> share their ridiculous fails, speedruns, and rage moments on YouTube, TikTok, and Discord. Some players even host opera-scream speedrun tournaments. Fan-made mods and skins are already appearing — ever wanted to play as Brr Brr Patapim or La Vacca Saturno Saturnita? In this world, you can.</p>
-  
-      <h4>Play Italian Brainrot Obby Parkour Free</h4>
-      <p><strong>Italian Brainrot Obby Parkour</strong> is free-to-play, runs in your browser, and requires no download. The game receives weekly updates, including new parkour stages, cursed voice packs, and meme cosmetics. It's lightweight, ridiculous, and pure fun — just how brainrot should be.</p>
-  
-      <h4>Don’t Forget the Name: Italian Brainrot Obby Parkour</h4>
-      <p>We’ve said <strong>Italian Brainrot Obby Parkour</strong> more than 50 times because it’s unforgettable. The combination of platforming, memes, and Italian absurdity makes <strong>Italian Brainrot Obby Parkour</strong> a true icon of the genre. If you’re ready to test your reflexes, patience, and sanity, dive into <strong>Italian Brainrot Obby Parkour</strong> now.</p>
+      <h3>Game Overview</h3>
+<p><strong>Italian Brainrot Obby Parkour</strong> is a wild and hilarious platforming experience that blends meme-fueled chaos with classic obby parkour mechanics. Inspired by games like Tower of Hell, this title brings the unpredictable humor of the Italian brainrot meme universe into a 3D climbing challenge where reflexes, timing, and character mastery are everything. Whether you're playing solo or joining a friend in 2-player mode, the goal is simple: survive the madness and reach the top of the map.</p>
+
+
+<h3>How to play?</h3>
+<p><strong>In single player game mode:</strong></p>
+<img src="/images/games/games_03_01.png" style="float: right; width: 40%" alt="Italian Brainrot Obby Parkour Game Preview" />
+<ul>
+    <li><strong>Move:</strong> W, A, S, D or ARROW KEYS</li>
+    <li><strong>Jump:</strong> SPACE</li>
+    <li><strong>Sprint:</strong> L-SHIFT</li>
+    <li><strong>Camera rotate:</strong> MOUSE</li>
+    <li><strong>Zoom in/out:</strong> MOUSE SCROLL</li>
+</ul>
+<p><strong>In 2 Player Game mode:</strong></p>
+<p><strong>Player 1:</strong></p>
+<ul>
+    <li><strong>Move:</strong> W, A, S, D</li>
+    <li><strong>Jump:</strong> SPACE</li>
+    <li><strong>Sprint:</strong> L-SHIFT</li>
+</ul>
+<p><strong>Player 2:</strong></p>
+<ul>
+    <li><strong>Move:</strong> ARROW KEYS</li>
+    <li><strong>Jump:</strong> L</li>
+    <li><strong>Sprint:</strong> K</li>
+</ul>
+<p>The game features three distinct parkour maps—Easy, Medium, and Hard—each one packed with rotating obstacles, moving platforms, spinning kill bricks, and precision jumps that will test even the most experienced parkour fans. Players must climb their way to the finish line without falling, using their skills and momentum to adapt to rapidly changing terrain.</p>
+
+<p>What makes this obby game stand out is its unforgettable cast of meme characters pulled straight from the Italian brainrot meme scene. You start with a default runner, but as you collect coins by completing levels or performing daring feats, you’ll be able to unlock a total of ten ridiculous and uniquely animated characters:</p>
+<ul>
+    <li>Tung Tung Sahur</li>
+    <li>Brr Brr Patapim</li>
+    <li>Burbaloni Luliloli</li>
+    <li>Frigo Camelo</li>
+    <li>Girafa Celestre</li>
+    <li>Lirili Larila</li>
+    <li>Orangutini Annaucini</li>
+    <li>Tralalero Tralala</li>
+    <li>Vaca Saturno Saturnita</li>
+</ul>
+<p>Each character adds comedic flair to the gameplay, giving players something to work toward beyond just reaching the end. The characters aren’t just cosmetic either—they’re loud, animated, and perfectly match the absurd energy of the game. If you've ever wanted to see Girafa Celestre tumble down a death ramp while screaming nonsense, this is your moment.</p>
+
+<p>For players familiar with the "Tower of Hell" genre, Italian Brainrot Obby Parkour keeps the core gameplay intact while layering it with its own chaotic personality. There are no checkpoints—falling means starting over. However, the challenge keeps the adrenaline high and the victories incredibly satisfying. The level design favors speed runners, too, so mastering jump timing and wall climbing can lead to some impressive record runs.</p>
+
+<p>Beyond memes and parkour, this game also thrives on player creativity. The 2-player mode invites friendly competition or cooperative runs. Race your friend to the finish, or work together to figure out the fastest routes through the madness. It’s a social experience that adds replayability and fun commentary moments—perfect for streamers and TikTok fans who love sharing gameplay chaos.</p>
+
+<h3>Key Features</h3>
+<ul>
+    <li><strong>Three parkour maps:</strong> Easy, Medium, and Hard levels offer variety and increasing difficulty for all types of players.</li>
+    <li><strong>Single and Two-Player Modes:</strong> Play solo or challenge a friend in hilarious side-by-side chaos.</li>
+    <li><strong>Unlockable Meme Characters:</strong> Collect coins to unlock 10 absurd characters from the Italian brainrot meme universe.</li>
+    <li><strong>Brutal Obstacle Design:</strong> Inspired by Tower of Hell-style games, one mistake can send you back to the start.</li>
+    <li><strong>Perfect for Speedrunners:</strong> Clean jumps and wall runs allow skilled players to master each tower layout.</li>
+    <li><strong>High Replayability:</strong> Unlockables, multiplayer mode, and difficulty progression make each run unique.</li>
+</ul>
+
+<h3>FAQ</h3>
+<p><strong>What is Italian Brainrot Obby Parkour?</strong><br>
+It's a platformer climbing game inspired by obby games like Tower of Hell, filled with meme characters from the Italian brainrot universe and fast-paced parkour.</p>
+
+<p><strong>How do I unlock more characters?</strong><br>
+Collect coins by completing levels or performing advanced maneuvers. Use your coins to unlock new playable meme characters like Tralalero Tralala and Vaca Saturno Saturnita.</p>
+
+<p><strong>Is Italian Brainrot Obby Parkour multiplayer?</strong><br>
+Yes! The game includes both 1-player and 2-player modes, letting you race or cooperate with a friend.</p>
+
+<p><strong>What is an Obby Parkour game?</strong><br>
+An obby (short for &ldquo;obstacle course&rdquo;) is a platform game where players must jump and climb through hazards to reach the goal. Tower of Hell-style obby games are known for their brutal difficulty and no-checkpoint design.</p>
+
+<p><strong>Is this game suitable for fans of Italian Brainrot memes?</strong><br>
+Absolutely. The game was designed to bring the chaotic humor and viral energy of the Italian brainrot meme scene into a playable experience.</p>
+
+<h3>Final Thoughts</h3>
+<p>Italian Brainrot Obby Parkour is a chaotic love letter to meme culture and obstacle platformers. Combining high-difficulty parkour gameplay with viral characters from the Italian brainrot meme universe, it offers something fresh for both fans of the genre and internet humor. Whether you're speedrunning to the top or laughing with a friend as you fall off the 10th spinning beam, this climb parkour experience guarantees memorable moments. Unlock every ridiculous character, conquer every map, and see if you have what it takes to reach the top without losing your mind.</p>
     `
   },
 
@@ -197,51 +204,32 @@ export const gamesList = [
       keywords: 'Merge Fellas Italian Brainrot, merge game, puzzle, Italian memes, brainrot, character merge'
     },
     detailsHtml: `
-      <h3>Merge Fellas Italian Brainrot</h3>
-      <p><strong>Merge Fellas Italian Brainrot</strong> is the ultimate chaotic fusion of meme culture, operatic vocals, and puzzle mechanics. If you're ready to experience a merge game unlike anything you've played before, then <strong>Merge Fellas Italian Brainrot</strong> is here to change your brain chemistry permanently. This is a game where Italian stereotypes, brainrot absurdism, and cursed aesthetics collide in a glorious spectacle of sound, pixels, and pasta.</p>
-  
-      <h4>What is Merge Fellas Italian Brainrot?</h4>
-      <p><strong>Merge Fellas Italian Brainrot</strong> is a casual merge puzzle game that blends addictive tile-merging mechanics with surreal humor, inspired by Italian opera, TV commercials, and internet brainrot. You begin with low-tier characters like Burbaloni Luliloli or Matteo, and by merging them, you create progressively louder and more cursed evolutions. Eventually, you'll unlock monstrosities like Frigo Camelo or La Vacca Saturno Saturnita — entities that don’t just scream, they *ascend*.</p>
-  
-      <h4>Gameplay Mechanics</h4>
-      <ul>
-        <li><strong>Drag & Merge:</strong> Combine identical characters to unlock their next form — each with unique screams and animations.</li>
-        <li><strong>Opera Combos:</strong> Merge sequences play musical phrases; complete sets trigger full-blown arias.</li>
-        <li><strong>Ascension Meter:</strong> Fill your meter to unlock new backgrounds like “Napoli Underworld” and “Nonna’s Galaxy.”</li>
-        <li><strong>Brainrot Events:</strong> Time-limited meme challenges that introduce crossover characters and bonus tiles.</li>
-      </ul>
-  
-      <h4>Why You’ll Love Merge Fellas Italian Brainrot</h4>
-      <p>Because <strong>Merge Fellas Italian Brainrot</strong> is more than just a game — it’s a cultural experience. One moment, you're calmly merging two Lirili Larilas. The next, you’re bombarded with distorted vocal harmonies, lasagna lightning bolts, and a voice shouting "PASTAAAAA" in perfect bel canto. Every character in <strong>Merge Fellas Italian Brainrot</strong> tells a story. A weird, confusing, beautiful story. One filled with screaming goats, dancing refrigerators, and glitchy saints.</p>
-  
-      <h4>Popular Characters in Merge Fellas Italian Brainrot</h4>
-      <ul>
-        <li><strong>Matteo:</strong> The entry-level merge fella. He hums quietly until he's merged.</li>
-        <li><strong>Frigo Camelo:</strong> A literal fridge with camel legs. He shrieks when upgraded.</li>
-        <li><strong>La Vacca Saturno Saturnita:</strong> Cosmic cow energy. Unlock her and reality bends slightly.</li>
-        <li><strong>Ballerina Cappuccina:</strong> Spins like espresso foam and screams in falsetto.</li>
-        <li><strong>Pipi Potato:</strong> His eyes follow your cursor. Don’t ask why.</li>
-      </ul>
-  
-      <h4>Game Strategy</h4>
-      <ol>
-        <li><strong>Merge with Purpose:</strong> Don’t just spam merges. Aim for combo chains to trigger aria bursts.</li>
-        <li><strong>Use Power-Ups Wisely:</strong> Items like “Opera Buff” or “Nonna's Curse” double merge output.</li>
-        <li><strong>Embrace the Chaos:</strong> Some events randomly swap tiles. Adapt quickly!</li>
-        <li><strong>Unlock Brainrot Mode:</strong> After 100 merges, the game enters max-chaos state with altered gravity and sound distortion.</li>
-      </ol>
-  
-      <h4>Community Reactions</h4>
-      <p>The reaction to <strong>Merge Fellas Italian Brainrot</strong> has been overwhelmingly… confused. And delighted. Players on Reddit, TikTok, and Discord share their loudest moments, their weirdest character combos, and theories about the lore behind the Merge Fellas. Some swear there’s a secret tile that ends the simulation. Others are trying to decode the backwards opera screams.</p>
-  
-      <h4>Crossovers & Updates</h4>
-      <p><strong>Merge Fellas Italian Brainrot</strong> is part of the broader Italian Brainrot universe. Expect guest appearances from characters like Trulimero Trulichina or Glorbo Fruttodrillo. Weekly updates bring new tiles, music, and mini-events — like the infamous “Sahur Merge Invasion” or “Cappuccino Apocalypse.”</p>
-  
-      <h4>Ready to Merge?</h4>
-      <p><strong>Merge Fellas Italian Brainrot</strong> is playable on all browsers, with full mobile support. No download needed. Just click, merge, and let your sanity slip away — with style.</p>
-  
-      <h4>We’ll Say It Again: Merge Fellas Italian Brainrot</h4>
-      <p>That’s right. This page has mentioned <strong>Merge Fellas Italian Brainrot</strong> over 50 times — because it’s that unforgettable. This isn’t just a game title, it’s a mantra. A warning. A siren song of chaos. Merge responsibly.</p>
+      <h3>Game Overview</h3>
+<p>Unleash the madness with <strong>Merge Fellas: Italian Brainrot Lite</strong>! A minimalist spin on the 2025 TikTok sensation, this game stars meme icons like La Vaca Saturno Saturnita in a wild merge adventure! Ready to play? Join us at mergefellasgame.com!</p>
+<img src="/images/games/games_04_01.png" style="float: right; width: 40%" alt="Merge Fellas Italian Brainrot Game Preview" />
+<p>Merge Fellas: Italian Brainrot Lite delivers TikTok's wildest meme stars in a sleek, simplified package! Merge 11 hilarious Italian Brainrot pets, from a dancing cat-shrimp to a fridge-bodied camel, all packed with meme energy and Italian vibes.</p>
+
+<h3>How to Merge Your Italian Brainrot Meme Stars in Lite Mode</h3>
+<p>Dive into Merge Fellas: Italian Brainrot Lite and meet all 11 meme pets! Here's how to conquer the board and evolve your quirky cast.</p>
+
+<h4>1. Kick Off Your Meme Merge Madness</h4>
+<p>Launch your Merge Fellas: Italian Brainrot Lite journey with a wild cast of meme stars! Start merging from the quirky basics and aim to conquer the ultimate Italian Brainrot evolution challenge!</p>
+
+<h4>2. Evolve Through the Italian Brainrot Meme Cast</h4>
+<p>Discover and merge these unique Italian Brainrot meme characters:</p>
+<ul>
+    <li><strong>Trippy Tropa Trippy Trippie:</strong> A cat-shrimp hybrid with a pink body and bell-tipped antennae, dancing on tropical beaches with Trippy Tropa!</li>
+    <li><strong>Cappuccino Assassino:</strong> A cappuccino cup wielding dual knives, cloaked in black, shouting "Espresso Morte!" as it hunts.</li>
+    <li><strong>Burbaloni Luliloli:</strong> A capybara hidden inside a coconut shell, worshipped in tropical fire festivals, humming "Luliloli."</li>
+    <li><strong>Chimpanzee Bananini:</strong> A banana-bodied chimpanzee with green fur, dancing in the jungle and shouting "Banana Monkey!"</li>
+    <li><strong>Boneca Ambalabu:</strong> A tree frog with human legs and a tire body, hopping in the rainforest while shouting "Ambalabu!"</li>
+    <li><strong>Frigo Camelo:</strong> A camel with a fridge for a body, wearing big boots, blowing cold air while melting in the desert.</li>
+    <li><strong>Tung Tung Tung Sahur:</strong> A stick-like figure with a baseball bat, wearing worn sneakers, mimicking Indonesian Suhur drumbeats with "Tung Tung Tung!"</li>
+    <li><strong>La Vaca Saturno Saturnita:</strong> A cow with a Saturn-shaped body, sporting a spaghetti ring and giant feet in red leather shoes, yelling "Saturno Saturnita!"</li>
+    <li><strong>Lirili Larila:</strong> A cactus-elephant hybrid wearing sandals, carrying a ticking clock while humming "Lirili Larila" in the desert.</li>
+    <li><strong>Tralalero Tralala:</strong> A three-legged shark wearing blue Nike shoes, shouting "Tralalero Tralala!" as it dashes around.</li>
+    <li><strong>Bombardiro Crocodilo:</strong> A military bomber with a crocodile face, dropping bombs and shouting rhyming battle cries.</li>
+</ul>
     `
   },
 
@@ -260,43 +248,29 @@ export const gamesList = [
       keywords: 'Tung Tung Sahur Obby, Ramadan game, Sahur, obby, parkour, obstacle course, free online'
     },
     detailsHtml: `
-      <h3>Tung Tung Sahur Obby</h3>
-      <p><strong>Tung Tung Sahur Obby</strong> is not just another obby game — it’s a rhythmic, meme-fueled explosion of chaos, set in a world where sahur drums echo through cursed urban alleyways and obstacle platforms float over clouds of ketupat and ghostly megaphones. In <strong>Tung Tung Sahur Obby</strong>, your mission is simple: run, jump, and survive through increasingly absurd courses — all while the relentless beat of "Tung Tung Tung Sahur" follows your every move.</p>
-  
-      <h4>What Is Tung Tung Sahur Obby?</h4>
-      <p><strong>Tung Tung Sahur Obby</strong> is an Indonesian brainrot-style platformer that takes the obby genre and injects it with sahur culture, meme physics, and pure unfiltered weirdness. You’ll find yourself sprinting across swinging frying pans, bouncing on speakers blaring distorted sahur calls, and avoiding flying drums with screaming faces. With every checkpoint comes a louder beat, a weirder jump, and a more cursed landscape. It’s obby — but sahurified.</p>
-  
-      <h4>Gameplay Highlights</h4>
-      <ul>
-        <li><strong>30+ Sahur Levels:</strong> Each level of <strong>Tung Tung Sahur Obby</strong> brings new traps, sounds, and surreal visuals inspired by Indonesian morning call chaos.</li>
-        <li><strong>Live Sahur Beats:</strong> The soundtrack reacts to your movements. Fall off? Expect a drum solo of shame.</li>
-        <li><strong>Playable Meme Avatars:</strong> Unlock characters like the Flying Drum, Megaphone Child, and Sahur Chicken.</li>
-        <li><strong>Multiplayer Madness:</strong> Race others in real-time through randomly generated sahur mazes.</li>
-        <li><strong>Speedrun Mode:</strong> Compete in global leaderboards for the fastest sahur wake-up run.</li>
-      </ul>
-  
-      <h4>Why Everyone’s Talking About Tung Tung Sahur Obby</h4>
-      <p><strong>Tung Tung Sahur Obby</strong> has taken the meme gaming scene by storm. With its unique cultural spin and chaotic gameplay, it delivers a platforming experience unlike anything you’ve played. It’s loud, unpredictable, and joyfully irritating in the best way. Whether you're Indonesian or just a fan of brainrot games, <strong>Tung Tung Sahur Obby</strong> will make you laugh, rage, and maybe question your life choices — all before dawn.</p>
-  
-      <h4>Tips for Surviving Tung Tung Sahur Obby</h4>
-      <ol>
-        <li><strong>Time Your Jumps:</strong> Some platforms in <strong>Tung Tung Sahur Obby</strong> only appear in rhythm with the sahur drum — listen closely.</li>
-        <li><strong>Use Audio Cues:</strong> Audio isn't just aesthetic. That "TUNG!" might mean a jump is incoming.</li>
-        <li><strong>Collect Brainrot Stars:</strong> Hidden stars unlock bonus avatars like “Tung Goat” and “Sahur Satellite.”</li>
-        <li><strong>Stay Calm:</strong> You will fall. A lot. <strong>Tung Tung Sahur Obby</strong> is designed to troll you — and it’s hilarious when it does.</li>
-      </ol>
-  
-      <h4>Community Memes & Challenges</h4>
-      <p>Players worldwide have embraced <strong>Tung Tung Sahur Obby</strong> as a new icon in the brainrot genre. TikTok edits feature players falling while the drum screams. Streamers attempt "No Fall Sahur Runs." Fan art includes cursed sahur creatures and custom sahur boss levels. <strong>Tung Tung Sahur Obby</strong> is more than a game — it’s a movement of chaotic cultural pride.</p>
-  
-      <h4>Frequent Updates</h4>
-      <p><strong>Tung Tung Sahur Obby</strong> receives regular updates with new levels, audio memes, and cultural cameos. During Ramadan, special “Sahur Boss Rush” levels are unlocked, featuring giant spoons, bouncing tofu cubes, and ghost mosques with lasers. Stay tuned for the “Lebaran Obby Special” expansion.</p>
-  
-      <h4>Play Free Today</h4>
-      <p><strong>Tung Tung Sahur Obby</strong> is free-to-play and works directly in your browser. No installation needed. Just open the game, and let the sahur begin. Whether you're here to laugh, rage, or scream back at the drums — <strong>Tung Tung Sahur Obby</strong> will give you a morning you’ll never forget.</p>
-  
-      <h4>Never Forget: Tung Tung Sahur Obby</h4>
-      <p>Yes, we’ve said <strong>Tung Tung Sahur Obby</strong> more than 50 times, and for good reason. It’s not just a game title — it’s a rallying cry, a sound you can’t un-hear, and a rite of passage into the Indonesian brainrot gaming canon. Say it loud, say it proud: <strong>Tung Tung Sahur Obby</strong>.</p>
+      <h3>Game Overview</h3>
+<p><strong>Tung Tung Sahur: Obby Challenge</strong> is a wild parkour platformer that throws you into the chaotic world of Italian Brainrot memes. Take on the role of the legendary meme icon Tung Tung Sahur and race through hilarious, trap-filled obstacle courses. Inspired by viral TikTok madness, every jump, dodge, and fall brings unexpected laughs and nonstop absurdity!</p>
+<img src="/images/games/games_05_01.png" style="float: right; width: 40%" alt="Tung Tung Sahur Obby Game Preview" />
+<h3>Features</h3>
+<ul>
+    <li>Meme-fueled Obby parkour levels packed with chaos.</li>
+    <li>Play as the iconic Tung Tung Sahur in a ridiculous adventure.</li>
+    <li>Dodge traps, leap over chaos, and survive with pure meme energy.</li>
+    <li>Fast-paced platforming with absurd twists and viral humor.</li>
+</ul>
+
+<h3>Controls</h3>
+<ul>
+    <li><strong>WASD or Arrow keys:</strong> Move</li>
+    <li><strong>Space:</strong> Jump</li>
+    <li><strong>Q:</strong> Crouch</li>
+    <li><strong>Shift:</strong> Run</li>
+    <li><strong>Left-click:</strong> Spin</li>
+    <li><strong>Move mouse:</strong> Look around</li>
+    <li><strong>Tab:</strong> Pause</li>
+</ul>
+
+<p><strong>Last Updated:</strong> May 28, 2025</p>
     `
   },
 
@@ -315,43 +289,35 @@ export const gamesList = [
       keywords: 'Funny Cubes 2048, 2048 game, puzzle game, merge puzzle, cube game, funny, free online'
     },
     detailsHtml: `
-      <h3>Funny Cubes 2048</h3>
-      <p><strong>Funny Cubes 2048</strong> is not your average merge game — it's a hysterical rollercoaster where cubes with expressive faces bounce, collide, and scream their way to numerical glory. Forget clean grids and polite gameplay. In <strong>Funny Cubes 2048</strong>, it’s a slapstick mess of physics, numbers, and way too many cubes with googly eyes.</p>
-  
-      <h4>What Is Funny Cubes 2048?</h4>
-      <p><strong>Funny Cubes 2048</strong> takes the core mechanic of traditional 2048 — merging like numbers — and injects it with chaotic physics and absurd humor. Instead of sliding tiles, you’re launching bouncing cubes into a pit of numerical madness. Each cube has a face, a voice, and a dream: to merge, laugh, and scream all the way to 2048.</p>
-  
-      <h4>Gameplay Highlights</h4>
-      <ul>
-        <li><strong>Real Physics Mayhem:</strong> Cubes don’t behave — they bounce, flip, and sometimes scream when you drop them wrong. This is <strong>Funny Cubes 2048</strong>, not math class.</li>
-        <li><strong>Meme Cube Faces:</strong> Watch as cubes react in real-time — shocked, happy, dizzy, or dramatically over it — depending on your gameplay.</li>
-        <li><strong>Voice-React Merging:</strong> Merge a pair of 128s and get a slow-motion “WOW!” Merge a 1024? The cube might propose to you.</li>
-        <li><strong>Unlockable Skins:</strong> From “Crying Math Teacher” to “Exploding Banana Cube,” you’ll unlock the weirdest numbers you’ve ever met in a puzzle game.</li>
-        <li><strong>Endless Merge Loop:</strong> Can you reach 2048 while the cubes riot below? Or will your pit overflow with goofy faces begging for mercy?</li>
-      </ul>
-  
-      <h4>Why Funny Cubes 2048 Stands Out</h4>
-      <p><strong>Funny Cubes 2048</strong> doesn’t just challenge your logic — it tests your ability to laugh while strategizing. Traditional number puzzles feel tame compared to this slapstick brainrot. Whether you're merging numbers or accidentally launching a cube into the sky, <strong>Funny Cubes 2048</strong> ensures that no move is boring — and no cube is silent.</p>
-  
-      <h4>Tips for Mastering Funny Cubes 2048</h4>
-      <ol>
-        <li><strong>Drop Gently (or Not):</strong> Sometimes a slow drop lets cubes settle. Other times? Slam them down for hilarious chain reactions.</li>
-        <li><strong>Stack With Intention:</strong> Keep the higher numbers at the bottom to prevent panic towers of confused cubes yelling at each other.</li>
-        <li><strong>Combo Chain Mastery:</strong> Plan merges ahead to trigger multi-cube chain fusions — with multi-voice harmony.</li>
-        <li><strong>Mute with Caution:</strong> Sure, you can mute the audio… but you’d miss the best part of <strong>Funny Cubes 2048</strong>: the drama!</li>
-      </ol>
-  
-      <h4>Community Love & Meme Fuel</h4>
-      <p><strong>Funny Cubes 2048</strong> has taken social media by storm. TikToks of cubes shouting “MERGE ME!” or exploding into the void go viral daily. Players share screenshots of bizarre cube piles and their favorite cube face combinations. Some even roleplay as 512 cubes who just want peace. <strong>Funny Cubes 2048</strong> is more than a game — it’s a comedic number cult.</p>
-  
-      <h4>Updates and New Cube Packs</h4>
-      <p>Developers continue to add cube skins, reaction packs, and ridiculous physics updates. Expect seasonal events like “Valen-cube Day,” “Spooky Merge Month,” and the infamous “2048 Cube Hunger Games.” Each update makes <strong>Funny Cubes 2048</strong> even more bonkers.</p>
-  
-      <h4>Play Funny Cubes 2048 Free</h4>
-      <p>No download, no signup, just full-on number chaos. <strong>Funny Cubes 2048</strong> runs directly in your browser. Whether you’re a puzzle expert or just here to hear a cube sob into the void, this game is your chaotic number dream come true.</p>
-  
-      <h4>Cube You Later: Funny Cubes 2048</h4>
-      <p>At this point, you’ve read “<strong>Funny Cubes 2048</strong>” way too many times — and that’s intentional. The name will now live in your brain, rent-free, with a tiny cube whispering “merge me…” every time you close your eyes. Go ahead. Launch a cube. Laugh. Merge. Scream. This is <strong>Funny Cubes 2048</strong>.</p>
+      <h3>Game Overview</h3>
+<p>Welcome to <strong>Funny Cubes 2048</strong>, a twist on the classic 2048 puzzle game that adds a playful physics element. Developed by Playgama, this game is available on Android and PC, offering a unique blend of strategic planning and fun-filled physics.</p>
+<p>Dive into a vibrant world where your aim is to load your container with cubes of the highest possible values. With the ability to create almost infinitely large cubes, this game is designed to test your skills and offer endless entertainment. Utilize powerful **boosters**, earn challenging **achievements**, and climb the **high score table** as you compete with friends and players worldwide. Play online for free, and experience the thrill of merging cubes on both your phone and computer.</p>
+<img src="/images/games/games_06_01.png" style="float: right; width: 40%" alt="Funny Cubes 2048 Game Preview" />
+<h3>How to Play Funny Cubes 2048</h3>
+<p>Begin your journey by selecting a cube and dropping it onto others with the same value. Watch as they merge into a cube of a higher value. Your goal is to keep merging cubes to form the largest one possible without overflowing the container. The game ends when no more moves are possible, so keep an eye on your strategy!</p>
+
+<h4>Game Tips:</h4>
+<p>To excel in Funny Cubes 2048, focus on strategically placing your cubes to maximize merges. Aim to drop cubes with identical values next to each other, doubling their face value and freeing up space. Make use of boosters wisely; save them for when the container starts to overflow. Plan your moves in advance to avoid unwanted pile-ups and ensure a smooth gameplay experience.</p>
+
+<h4>Controls:</h4>
+<p>Use your <strong>mouse</strong> or <strong>touchscreen</strong> to select and drop cubes in the desired position. The game’s intuitive controls allow you to easily maneuver cubes and strategize your next move. Boosters can be activated with a simple click or tap, providing assistance when needed.</p>
+
+<h3>History and Theme</h3>
+<p>The concept of Funny Cubes 2048 draws inspiration from the original 2048 game, which captivated players with its simple yet addictive number-merging mechanics. By integrating physics elements, this version adds a new layer of excitement, challenging players to think beyond traditional strategies and engage with a dynamic game environment.</p>
+<p>Set in a vibrant and colorful cubic world, Funny Cubes 2048 offers a refreshing take on the beloved 2048 genre. The game’s unique physics-based mechanics require players to think creatively as they merge cubes and manage the space within their container. With boosters and achievements adding to the excitement, this game promises an engaging and rewarding experience for players of all ages.</p>
+
+<h3>Frequently Asked Questions</h3>
+<p><strong>What is the main objective of Funny Cubes 2048?</strong><br>
+The main objective is to merge cubes and create the largest possible cube without overflowing the container.</p>
+
+<p><strong>Can I play Funny Cubes 2048 on my phone?</strong><br>
+Yes, you can enjoy the game on both your phone and computer, offering flexibility and convenience.</p>
+
+<p><strong>Are there any special features in the game?</strong><br>
+Yes, the game includes boosters and achievements that enhance the gameplay experience.</p>
+
+<p><strong>Is it possible to compete with other players?</strong><br>
+Absolutely! The game features a high score table where you can compete with other players globally.</p>
     `
   },
 
@@ -370,43 +336,23 @@ export const gamesList = [
       keywords: 'Italian Brainrot Merge Evolution, merge game, evolution, Italian memes, brainrot, free puzzle game'
     },
     detailsHtml: `
-      <h3>Italian Brainrot Merge Evolution</h3>
-      <p><strong>Italian Brainrot Merge Evolution</strong> is an unholy fusion of merge gameplay, evolutionary chaos, and the loudest parts of Italian meme culture. In this game, you don’t just merge — you mutate. Combine two Mozzarellini to create a Ballerino di Lasagna. Evolve a screaming espresso machine into the Opera Goat. From cursed pizza spirits to pasta-based cyborgs, <strong>Italian Brainrot Merge Evolution</strong> turns traditional merging into operatic absurdity.</p>
-  
-      <h4>What Is Italian Brainrot Merge Evolution?</h4>
-      <p><strong>Italian Brainrot Merge Evolution</strong> is a satirical, chaotic merge-based evolution game where you combine identical units to unlock increasingly strange Italian entities. Your goal? Reach the legendary “Il Supremo del Fusilli” — the ultimate brainrot being made entirely of screaming spaghetti, singing ravioli, and an aura of parmesan mist. It's merge, but with espresso shots and divine nonsense.</p>
-  
-      <h4>Gameplay Highlights</h4>
-      <ul>
-        <li><strong>100+ Evolutions:</strong> Merge everything from “Mini Macaroni” to “Glorbo Fruttodrillo” in your path to supreme Italian ascension.</li>
-        <li><strong>Brainrot Lore:</strong> Each new creature has a name, a personality, and a tragic opera backstory.</li>
-        <li><strong>Opera Merge Soundtrack:</strong> Hear distorted tenors wail “MAMMA MIA” every time you evolve.</li>
-        <li><strong>Special Brainrot Boosters:</strong> Use Tomato Sauce Storms and Garlic Moonlight to accelerate your evolution.</li>
-        <li><strong>Merge Battles:</strong> Face rival players in PvP merge-offs — winner takes the last gnocchi soul.</li>
-      </ul>
-  
-      <h4>The Italian Brainrot Merge Evolution Experience</h4>
-      <p>Imagine combining two pixel pizza blobs and getting a flying Vespa unicorn. That’s normal here. <strong>Italian Brainrot Merge Evolution</strong> invites you into a universe where logic is thrown out the trattoria window. The game isn’t about winning — it’s about unleashing the loudest, most cursed version of Italian identity through relentless evolution.</p>
-  
-      <h4>Tips for Mastering Italian Brainrot Merge Evolution</h4>
-      <ol>
-        <li><strong>Always Merge Left:</strong> The left side of the screen is holy. All cursed evolutions begin from there.</li>
-        <li><strong>Feed the Pizza Totem:</strong> Offer unused units to the Totem of Dough for rewards (and maybe forgiveness).</li>
-        <li><strong>Look for Easter Eggs:</strong> Hidden units like “Pipi Potato” or “Cappuccino Assassino” may appear if you merge during full moon cycles (real or imagined).</li>
-        <li><strong>Don’t Trust the Tiramisu Oracle:</strong> She lies. But it’s funny.</li>
-      </ol>
-  
-      <h4>Community Memes & Evolutions</h4>
-      <p><strong>Italian Brainrot Merge Evolution</strong> has become a meme museum. Players post screenshots of their cursed merges like “Mozzaraptor 3000” and “Lasagna Goblin Choir.” TikTok is filled with musical remixes of the Opera Goat's final scream. The community actively invents fake lore, fake DLC leaks, and fake in-game religions based around tomato-based prophets.</p>
-  
-      <h4>Seasonal Brainrot Events</h4>
-      <p>Special updates bring limited-time merge lines, like “Panettone Apocalypse,” “San Gnocchilizio,” and the terrifying “Carnival of the Cheese Clowns.” During events, merge logic is reversed, sound design is amplified, and the game whispers ancient pizza recipes at you. It’s beautiful. It’s terrifying. It’s <strong>Italian Brainrot Merge Evolution</strong>.</p>
-  
-      <h4>Play Italian Brainrot Merge Evolution Free</h4>
-      <p>No install, no sense, no turning back. <strong>Italian Brainrot Merge Evolution</strong> runs directly in your browser. Merge whenever and wherever — from chaotic opera battles at lunch break to merging ravioli at midnight while questioning existence.</p>
-  
-      <h4>Let the Evolution Begin</h4>
-      <p>We’ve said <strong>Italian Brainrot Merge Evolution</strong> more than enough, but if you've read this far, it's already in your blood. The fusilli calls. The meatball spirits awaken. Say it with us: <strong>Italian Brainrot Merge Evolution</strong> is love, is logic, is lasagna. Merge now.</p>
+      <h3>Game Overview</h3>
+<p>Welcome to <strong>Italian Brainrot Merge Evolution</strong>, a game that perfectly blends the chaos of viral Italian memes with an addictive merge game mechanic! Dive into a world filled with quirky characters and absurd sound effects, where your goal is to merge and evolve your meme collection to unlock the ultimate "brainrot" forms.</p>
+<img src="/images/games/games_07_01.png" style="float: right; width: 40%" alt="Italian Brainrot Merge Evolution Game Preview" />
+<p>Inspired by the Italian brainrot meme trend on TikTok, this game offers a unique and humorous experience. By strategically dragging and dropping identical memes together, you'll witness them transform into higher-level, even funnier versions. Get ready for endless fun and surprises, as each evolution brings new visual and auditory delights!</p>
+
+
+<h3>Game Features</h3>
+<ul>
+    <li><strong>Unique Merge Mechanic:</strong> Combines classic merge gameplay with a distinctive Italian meme theme.</li>
+    <li><strong>Extensive Meme Roster:</strong> Collect and evolve a large cast of funny Italian brainrot memes, each with its iconic sounds and animations.</li>
+    <li><strong>Easy to Learn, Hard to Master:</strong> Intuitive drag-and-drop controls make it accessible for everyone, but mastering the strategy to achieve high scores requires skill.</li>
+    <li><strong>Addictive Gameplay:</strong> The satisfaction of each new evolution keeps you coming back for more.</li>
+    <li><strong>Visual and Auditory Feast:</strong> Enjoy vibrant graphics and the absurd, iconic sound effects of the memes.</li>
+</ul>
+
+<h3>Final Thoughts</h3>
+<p><strong>Italian Brainrot Merge Evolution</strong> is more than just a merge game; it's a celebration of internet meme culture. If you're a fan of Italian brainrot memes, or simply enjoy a lighthearted and engaging puzzle game, this title is definitely worth a play. Get ready to merge, evolve, and immerse yourself in pure meme chaos!</p>
     `
   },
 
@@ -425,43 +371,20 @@ export const gamesList = [
       keywords: 'Italian Brainrot Jigsaw, puzzle, jigsaw game, meme puzzle, Italian memes, free online'
     },
     detailsHtml: `
-      <h3>Italian Brainrot Jigsaw</h3>
-      <p><strong>Italian Brainrot Jigsaw</strong> isn’t just a puzzle game — it’s an art gallery of nonsense. Each jigsaw you solve reveals a cursed masterpiece from the depths of the Italian Brainrot universe. From screeching espresso machines to dancing lasagna entities, <strong>Italian Brainrot Jigsaw</strong> takes traditional puzzling and marinates it in mozzarella, memes, and mild existential horror.</p>
-  
-      <h4>What Is Italian Brainrot Jigsaw?</h4>
-      <p><strong>Italian Brainrot Jigsaw</strong> is a chaotic puzzle game where every piece contributes to a larger, more horrifying (and hilarious) picture. Forget peaceful sunsets and cute puppies — here you’ll piece together characters like “Opera Goat,” “Spaghetti Nun,” and “Il Vespino Sussurrante.” Each puzzle comes with distorted sound effects, bizarre lore, and a suspicious amount of marinara sauce.</p>
-  
-      <h4>Gameplay Highlights</h4>
-      <ul>
-        <li><strong>30+ Brainrot Images:</strong> Each jigsaw puzzle unveils an original cursed artwork straight from the Italian Brainrot archives.</li>
-        <li><strong>Dynamic Sound FX:</strong> Every piece placement might trigger a “Mamma Mia!” or the haunting whisper of a cheese priest.</li>
-        <li><strong>Difficulty Modes:</strong> Choose between “Mildly Unsettling,” “Full Spaghetti Panic,” or “Insano Mode” where the pieces rotate and scream.</li>
-        <li><strong>Gallery Mode:</strong> Admire your completed brainrot puzzles like a true cursed connoisseur.</li>
-        <li><strong>Bonus Lore Pieces:</strong> Hidden pieces reveal extra lore fragments from characters like “Lirili Larila” and “Brr Brr Patapim.”</li>
-      </ul>
-  
-      <h4>Why Italian Brainrot Jigsaw Is So… Italian</h4>
-      <p><strong>Italian Brainrot Jigsaw</strong> is part puzzle, part cultural explosion. Every puzzle is a tribute to exaggerated Italian tropes — but seen through the lens of chaotic brainrot logic. One moment you’re assembling a dancing cannoli warrior; the next, you’re putting together the face of “Frigo Camelo” surrounded by flying salami angels.</p>
-  
-      <h4>Tips for Puzzle Survival</h4>
-      <ol>
-        <li><strong>Sort by Colorful Chaos:</strong> Look for visual patterns like "screaming pasta" or "red eyes in tomato sauce."</li>
-        <li><strong>Use Audio Cues:</strong> Some pieces scream when near their correct neighbor — yes, it's intentional.</li>
-        <li><strong>Don’t Fear the Glitch:</strong> Some puzzles intentionally distort as you complete them — embrace it.</li>
-        <li><strong>Celebrate Your Completion:</strong> Each finished puzzle ends with a triumphant operatic “GRAZIE!” and optional cheese confetti.</li>
-      </ol>
-  
-      <h4>Community Creations & Memes</h4>
-      <p><strong>Italian Brainrot Jigsaw</strong> has inspired a cult following. Fans print out puzzles and hang them in cursed cafés. TikToks show blindfolded speedruns of the “Pizza Pope” puzzle. Discord servers argue over which piece of “Mozzarellini’s Left Eyebrow” is canon. It’s more than a game — it’s collective visual insanity.</p>
-  
-      <h4>Events & Seasonal Sets</h4>
-      <p>Expect limited-edition puzzle packs like “Brainrot Natale” (featuring Santa Espresso), “Ramadan Ravioli Rage,” and “Easter Lasagna Resurrection.” These events introduce time-limited jigsaws, animated puzzle pieces, and even audio-reactive backgrounds that scream based on where you drag pieces.</p>
-  
-      <h4>Play Italian Brainrot Jigsaw Now</h4>
-      <p>No download. No explanation. Just cursed puzzle joy. Open <strong>Italian Brainrot Jigsaw</strong> in your browser and begin assembling chaos. Whether you're solving solo or with friends screaming beside you, this game promises unmatched Italian absurdity with every piece.</p>
-  
-      <h4>Final Piece: Brainrot Complete</h4>
-      <p>You’ve now read <strong>Italian Brainrot Jigsaw</strong> more times than medically advisable. You crave puzzle. You crave ravioli-shaped madness. So give in. Embrace the brainrot. Complete the jigsaw. Become one with the spaghetti void. This… is <strong>Italian Brainrot Jigsaw</strong>.</p>
+      <h3>Game Overview</h3>
+<p>Dive into the ultimate puzzle experience with <strong>Italian Brainrot Jigsaw</strong>! This game brings the chaotic world of Italian Brainrot memes to your fingertips, transforming 15 iconic images into engaging jigsaw puzzles. Choose your challenge level and reconstruct your favorite absurd characters piece by piece.</p>
+<img src="/images/games/games_08_01.png" style="float: right; width: 40%" alt="Italian Brainrot Jigsaw Game Preview" />
+<h4>Customizable Jigsaw Puzzle Adventure</h4>
+<p>Italian Brainrot Jigsaw combines traditional jigsaw mechanics with beloved Italian Brainrot artwork. Experience relaxing puzzle-solving with authentic meme imagery, featuring intuitive controls and helpful visual aids for seamless gameplay.</p>
+
+<h3>Master Every Puzzle Configuration</h3>
+<p>Learn the essential techniques for conquering puzzles from beginner to expert level:</p>
+
+<h4>1. 15 Memes, 4 Difficulty Levels</h4>
+<p>Select from 15 distinctive Italian Brainrot images featuring all your favorite characters. Challenge yourself with 16-piece beginner puzzles or test your skills with complex 100-piece masterpieces. Each difficulty offers unique strategic approaches.</p>
+
+<h4>2. Smart Assistance & Timing Features</h4>
+<p>Use the background reference image to guide your assembly process, or scramble pieces for fresh challenges. A built-in timer tracks your completion speed, perfect for competitive puzzle-solving and personal improvement goals.</p>
     `
   },
 
@@ -480,53 +403,37 @@ export const gamesList = [
       keywords: 'Italian Brainrot Battle, character showdown, fighting game, brawling, meme game, free online'
     },
     detailsHtml: `
-      <h3>Italian Brainrot Battle: Character Showdown</h3>
-      <p><strong>Italian Brainrot Battle: Character Showdown</strong> is the ultimate arena where cursed meme legends of the Italian Brainrot universe collide in chaotic, operatic combat. From the flying kicks of <strong>Ballerina Cappuccina</strong> to the scream-powered slams of <strong>Opera Goat</strong>, every fighter brings absurd special moves, over-the-top animations, and symphonic rage. This isn’t just a fighting game — this is <strong>Italian Brainrot Battle: Character Showdown</strong>.</p>
-  
-      <h4>What Is Italian Brainrot Battle: Character Showdown?</h4>
-      <p><strong>Italian Brainrot Battle: Character Showdown</strong> is a 2D brainrot-style fighting game where you choose your favorite meme-infused Italian warrior and face off in cursed stages like the “Colosseo di Mozzarella” or “Cathedral of Screaming Pizza.” Use combos, taunts, musical ultimates, and chaotic specials to defeat your rivals. Each fighter is a walking glitch opera — and every match is pure brainrot mayhem.</p>
-  
-      <h4>Gameplay Highlights</h4>
-      <ul>
-        <li><strong>20+ Playable Fighters:</strong> Choose from legends like Pipi Potato, Glorbo Fruttodrillo, Brr Brr Patapim, and the mysterious Lasagna Phantom.</li>
-        <li><strong>Brainrot Battle Mechanics:</strong> Spam the “Mamma Mia” meter to charge up your special opera finisher.</li>
-        <li><strong>Dynamic Opera Combos:</strong> The louder your inputs, the more dramatic the battle music becomes.</li>
-        <li><strong>Absurd Arenas:</strong> Fight in places like “Spaghetti Train Station” or “Void of the Cheese Pope.”</li>
-        <li><strong>Multiplayer Madness:</strong> 1v1, 2v2, CPU Royale, or Online Ranked Mode — may the most cursed fighter win.</li>
-      </ul>
-  
-      <h4>Top Fighters in Italian Brainrot Battle: Character Showdown</h4>
-      <ol>
-        <li><strong>Pipi Potato:</strong> Small, round, and furious. Can summon the “Tornado of Tubers.”</li>
-        <li><strong>Ballerina Cappuccina:</strong> Graceful and deadly. Finisher: “Espresso Pirouette of Doom.”</li>
-        <li><strong>Opera Goat:</strong> Uses high-pitched attacks. His Scream Meter is a game-changer.</li>
-        <li><strong>Frigo Camelo:</strong> A fridge on four legs that launches frozen salami like missiles.</li>
-        <li><strong>Lirili Larila:</strong> Her sonic yodels can stun enemies and shatter health bars.</li>
-      </ol>
-  
-      <h4>Special Move Types</h4>
-      <p>Each fighter in <strong>Italian Brainrot Battle: Character Showdown</strong> has:</p>
-      <ul>
-        <li><strong>Basic Attack Chain:</strong> Mash-friendly, chaos-packed.</li>
-        <li><strong>Signature Move:</strong> Custom meme-powered move, like “Tofu Barrage” or “Mozzarella Comet.”</li>
-        <li><strong>Super Finisher:</strong> A 10-second cutscene featuring operatic shrieking and ritual lasagna formations.</li>
-        <li><strong>Counter Taunts:</strong> Trigger unique quotes like “TI AMO… MA TI SPACCO!”</li>
-      </ul>
-  
-      <h4>Why This Game Is Pure Brainrot Art</h4>
-      <p><strong>Italian Brainrot Battle: Character Showdown</strong> combines pixel art, meme culture, and operatic sound design into a fever dream of competitive absurdity. Fighters have background lore. Arenas have ghostly NPCs. Even the pause menu whispers broken Italian proverbs. No battle feels the same — especially when the soundtrack randomly replaces itself with distorted tenor solos mid-match.</p>
-  
-      <h4>Community Highlights & Fan Culture</h4>
-      <p>The fanbase of <strong>Italian Brainrot Battle: Character Showdown</strong> has gone wild. Fanart. Combo guides. Opera mashups. Mods adding characters like “Tung Sahur” or “Boneca Ambalabu.” Twitch tournaments feature real-time audience tomato-throwing via chat. Memes fly faster than combos.</p>
-  
-      <h4>Seasonal Showdowns & DLC</h4>
-      <p>Special events introduce limited-time characters like “Panettone Boxer” or “Sahur Saint.” Each season includes new cursed stages, remixed opera music, and new Brainrot Lore Scrolls (yes, scrolls). The next DLC pack, “Battle of the Bologna Saints,” teases a new final boss made entirely of stacked meatballs with laser eyes.</p>
-  
-      <h4>Play Italian Brainrot Battle: Character Showdown Now</h4>
-      <p>Start fighting immediately, no install needed. <strong>Italian Brainrot Battle: Character Showdown</strong> is playable directly in your browser. Whether you're mashing buttons, yelling Italian nonsense, or trying to parry a wheel of cheese mid-air — this is the arena of chaos you’ve been waiting for.</p>
-  
-      <h4>The Final Bellissimo Brawl</h4>
-      <p>You’ve read <strong>Italian Brainrot Battle: Character Showdown</strong> this far — which means you’re ready. Ready to yodel. Ready to scream. Ready to unleash the lasagna rage within. Choose your fighter. Enter the void. Fight for your opera. <strong>Italian Brainrot Battle: Character Showdown</strong> awaits.</p>
+      <h3>Game Overview</h3>
+<p>Enter the ultimate character challenge with <strong>Italian Brainrot Battle</strong>! Test your intuition in this bizarre showdown where you'll face off strange creatures like Bombardiro Crocodilo and La Vaca Saturno Saturnita. Can you guess which character is more powerful? Play now and see if you can reach 10 consecutive wins!</p>
+
+<h4>A Chaotic Battle of Brainrot Characters</h4>
+<p>Italian Brainrot Battle throws you into the wildest character showdown! Face off 10 bizarre characters, from Bombardiro Crocodilo to Garamaraman dan Garamamaraman, in an intuition-testing battle of strength.</p>
+<img src="/images/games/games_09_01.png" style="float: right; width: 40%" alt="Italian Brainrot Battle: Character Showdown Game Preview" />
+<h3>How to Master the Brainrot Battle Showdown</h3>
+<p>Jump into Italian Brainrot Battle and test your intuition with 10 bizarre characters! Here's your guide to conquering the Brainrot Meter and becoming the ultimate champion.</p>
+
+<h4>1. Begin Your Brainrot Battle Journey</h4>
+<p>Start your Italian Brainrot Battle adventure by facing off two eccentric characters! Study their appearance, names, and descriptions carefully &mdash; your intuition will be your greatest weapon in this bizarre showdown!</p>
+
+<h4>2. Meet Your Brainrot Battle Contenders</h4>
+<ul>
+    <li><strong>Bombardiro Crocodilo:</strong> A fearsome crocodile with explosive capabilities, known for its intimidating presence and destructive power.</li>
+    <li><strong>Lirilì Larilà:</strong> An unusual elephant-cactus hybrid wearing sandals, combining the strength of an elephant with the resilience of a desert plant.</li>
+    <li><strong>Tung Tung Tung Sahur:</strong> A mysterious brown tree statue wielding a baseball bat, said to come alive during special occasions.</li>
+    <li><strong>U Din Din Din Din Dun Ma Din Din Din Dun:</strong> A muscular figure with a distinctive orange head, transformed by consuming special orange seeds.</li>
+    <li><strong>La Vaca Saturno Saturnita:</strong> A cosmic bovine entity with its head emerging from Saturn, representing celestial strength.</li>
+    <li><strong>Tralalero Tralala:</strong> A three-legged shark wearing Nike sneakers, combining aquatic speed with terrestrial style.</li>
+    <li><strong>Trippi Troppi Troppi Trappa:</strong> A bizarre hybrid combining features of a shrimp, cat, or possibly a bear with fish elements.</li>
+    <li><strong>Frigo Camelo Bufo Furdelo:</strong> A peculiar creation with a refrigerator torso and camel features, wearing distinctive footwear.</li>
+    <li><strong>Brr Brr Patapim:</strong> A curious monkey head perched on tree limbs, known for its unpredictable nature.</li>
+    <li><strong>Garamaraman dan Garamamaraman:</strong> A unique fusion of salt and honey barrels with human features, transformed by an ancient curse.</li>
+</ul>
+
+<h4>3. Master Your Battle Strategy</h4>
+<p>Choose wisely between the two characters presented in each round. Which one seems more powerful? Trust your instincts and select the character you believe has the higher power level to advance through the battle!</p>
+
+<h4>4. Track Your Progress on the Brainrot Meter</h4>
+<p>Watch your Brainrot Meter rise with each correct choice! Your goal is to reach 10 consecutive correct answers to achieve total victory. One wrong choice and it's game over &mdash; do you have what it takes to become the ultimate Brainrot Battle champion?</p>
     `
   },
 
@@ -545,51 +452,20 @@ export const gamesList = [
       keywords: 'Italian Brainrot Quiz, trivia game, quiz, meme game, Italian memes, free online game'
     },
     detailsHtml: `
-      <h3>Italian Brainrot Quiz</h3>
-      <p><strong>Italian Brainrot Quiz</strong> is not your average personality test — it’s a chaotic, culturally confusing journey through lasagna logic, meme instinct, and operatic absurdity. This quiz will peer into your soul (and your sauce preferences) to reveal which cursed character from the Italian Brainrot universe lives within you. Will you become <strong>Pipi Potato</strong>? <strong>Opera Goat</strong>? Or the rare and terrifying <strong>Sahurino Macaronius?</strong></p>
-  
-      <h4>What Is Italian Brainrot Quiz?</h4>
-      <p><strong>Italian Brainrot Quiz</strong> is a meme-fueled interactive quiz where your choices — whether serious, bizarre, or shamefully impulsive — lead you to your true Italian Brainrot form. With each question more illogical than the last, this quiz explores your chaotic essence through options like “Would you scream at a tomato if it insulted your family?” or “Pick a pasta shape to duel with.”</p>
-  
-      <h4>Quiz Features</h4>
-      <ul>
-        <li><strong>25+ Possible Results:</strong> Become one of the infamous cursed icons, including Brr Brr Patapim, Glorbo Fruttodrillo, or the mysterious Lasagna Prophet.</li>
-        <li><strong>Absurd Question Logic:</strong> From food fights to opera karaoke dilemmas, each question reveals your deepest brainrot tendencies.</li>
-        <li><strong>Dynamic Visual Feedback:</strong> Watch the quiz screen distort, shake, and scream when your answer is particularly chaotic.</li>
-        <li><strong>Brainrot Alignment Chart:</strong> Are you “Holy Cheese Neutral” or “Chaotic Ravioli Evil”?</li>
-        <li><strong>Shareable Results:</strong> Instantly generate your cursed character card and share it with the world (or your enemies).</li>
-      </ul>
-  
-      <h4>Sample Quiz Questions</h4>
-      <ol>
-        <li><strong>You wake up in a haunted trattoria. What do you do?</strong><br> A) Yell “MAMMA MIA!” and run<br> B) Hug the ghost chef<br> C) Order espresso and accept your fate</li>
-        <li><strong>Your spirit animal is:</strong><br> A) Screaming goat<br> B) Floating gnocchi<br> C) Singing tomato wearing sunglasses</li>
-        <li><strong>Choose your battle cry:</strong><br> A) “BRR BRR PATAPIM!”<br> B) “POTATO VESPA VICTORY!”<br> C) “Lirili Larilaaaaaa~”</li>
-      </ol>
-  
-      <h4>Popular Results in Italian Brainrot Quiz</h4>
-      <ul>
-        <li><strong>Pipi Potato:</strong> Small, fierce, and full of carbs. You’re a chaotic survivor with mashed potential.</li>
-        <li><strong>Opera Goat:</strong> Loud, dramatic, and unstoppable. Your voice alone can shatter lasagna.</li>
-        <li><strong>Ballerina Cappuccina:</strong> Graceful chaos. You twirl into disasters with style and foam.</li>
-        <li><strong>Frigo Camelo:</strong> Cold-hearted but reliable. You store everyone's leftover traumas.</li>
-        <li><strong>Lirili Larila:</strong> You sing. You yodel. You scream. Reality bends to your voice.</li>
-      </ul>
-  
-      <h4>Why Take the Italian Brainrot Quiz?</h4>
-      <p>Because traditional quizzes are boring. <strong>Italian Brainrot Quiz</strong> doesn’t care about your zodiac sign — it wants to know how you’d react to being chased by a meatball in a church. It’s funny, chaotic, and surprisingly accurate (in a cursed, vaguely insulting way). If you’ve ever felt a sudden urge to yodel at cheese, this quiz is for you.</p>
-  
-      <h4>Community Reactions</h4>
-      <p>Players around the world are sharing their results with confusion and pride. TikTok edits show people screaming after discovering they're “Sausage Nun of Parma.” Reddit threads debate whether being “Glorbo Fruttodrillo” is a blessing or a warning. This quiz is more than a game — it’s a diagnosis.</p>
-  
-      <h4>Events & Special Quiz Editions</h4>
-      <p>Expect seasonal expansions like the “Ramadan Sahur Edition,” “Lasagna Alignment Expansion,” or the infamous “April Fool’s Reverse Quiz” where the worst answers lead to the most enlightened results. Future plans include regional editions like “Indonesian Brainrot Quiz” and “Brazilian Funk Brainrot Personality Matrix.”</p>
-  
-      <h4>Take Italian Brainrot Quiz Now</h4>
-      <p>No download. No logic. Just click and embrace the chaos. <strong>Italian Brainrot Quiz</strong> works in your browser, mobile or desktop. Whether you’re alone at 3AM questioning your pasta-based identity or want to destroy your friend’s self-image — this quiz is ready.</p>
-  
-      <h4>Say It With Us… Italian Brainrot Quiz</h4>
-      <p>We’ve said <strong>Italian Brainrot Quiz</strong> way too many times, but for good reason. It's not just a quiz — it’s a ritual. It’s a transformation. It’s the only test where being told you’re a “Cheese Prophet with Emotional Bolognese” feels like destiny. Take the quiz. Find your brainrot. Become the pasta you were meant to be.</p>
+      <h3>Game Overview</h3>
+<p>Test your Italian Brainrot meme knowledge in this immersive 3D multiplayer quiz! <strong>Italian Brainrot Quiz</strong> brings viral memes to life in a dynamic 3D world, challenging you and your friends across 20 rounds of meme-guessing fun. Join a social experience where every correct guess brings you closer to becoming the ultimate Brainrot expert!</p>
+<img src="/images/games/games_10_01.png" style="float: right; width: 40%" alt="Italian Brainrot Quiz Game Preview" />
+<h4>A Social Meme Guessing Experience</h4>
+<p>In the <strong>Italian Brainrot Quiz</strong>, each round presents you with 3 iconic Italian Brainrot memes. To answer, simply stand in front of your chosen meme. The 3D environment is yours to explore &mdash; use space to jump onto climbable buildings, chat with other players using the built-in chat box, and even enjoy a dedicated Brainrot Clicker mini-game during breaks between rounds!</p>
+
+<h3>How to Play Italian Brainrot Quiz</h3>
+<p>Master the art of meme guessing in this social 3D experience:</p>
+
+<h4>1. Navigate and Explore the 3D World</h4>
+<p>Start by choosing your player name and entering the 3D arena. Use <strong>WASD or arrow keys</strong> to move around, your <strong>mouse</strong> to look around, and the <strong>space bar</strong> to jump onto climbable buildings. Press <strong>Tab</strong> to see all participants, and use the <strong>chat box (Enter)</strong> to communicate with other players during the game.</p>
+
+<h4>2. Play and Enjoy Bonus Features</h4>
+<p>Each of the 20 rounds presents 3 Italian Brainrot memes based on visual and audio clues. Walk to the meme you think is correct and stand in front of it to submit your answer. During breaks or when you pause (<strong>P or Esc</strong>), enjoy the built-in Brainrot Clicker mini-game! Create custom rooms to play with friends, or join random players for a lively social meme-guessing experience.</p>
     `
   },
 
@@ -608,47 +484,70 @@ export const gamesList = [
       keywords: 'Brainrot Clicker, idle game, clicker, meme game, free online game, brainrot'
     },
     detailsHtml: `
-      <h3>Brainrot Clicker</h3>
-      <p><strong>Brainrot Clicker</strong> is the ultimate tap-to-descend-into-madness experience. In this cursed idle game, every click brings you closer to complete mental lasagna. Spawn units, upgrade absurdity, and watch your screen fill with screaming goats, yodeling potatoes, and opera-singing toasters. <strong>Brainrot Clicker</strong> isn't about strategy — it's about letting go.</p>
-  
-      <h4>What Is Brainrot Clicker?</h4>
-      <p><strong>Brainrot Clicker</strong> is a chaotic incremental game where you begin with a single click, then slowly build a brainrot factory powered by memes, noise, and cursed mechanics. Each tap earns brainrot points (🧠), which you can spend on upgrades like “Louder Lasagna,” “Spaghetti Duplicators,” and “Auto-Yodel.” Before long, the screen will be an opera of insanity.</p>
-  
-      <h4>Core Features of Brainrot Clicker</h4>
-      <ul>
-        <li><strong>Simple Click, Infinite Noise:</strong> Click the brainrot core to generate 🧠 points while hearing random distorted voice lines like “POTATO VICTORIA!”</li>
-        <li><strong>Over 50 Upgrades:</strong> Unlock things like “Fettuccine Reactor,” “Brainrot Amplifier,” and “Cursed Radio Tower.”</li>
-        <li><strong>Summon Brainrot Icons:</strong> Auto-generators summon familiar faces like Ballerina Cappuccina, Glorbo Fruttodrillo, and Pipi Potato.</li>
-        <li><strong>Prestige System:</strong> After reaching Level 1000, reset for “Void Sauce,” which lets you buy legendary memes and forbidden upgrades.</li>
-        <li><strong>Offline Chaos:</strong> Yes, your brainrot continues when you’re away. And yes, it gets weirder while you sleep.</li>
-      </ul>
-  
-      <h4>Popular Upgrades in Brainrot Clicker</h4>
-      <ol>
-        <li><strong>Mozzarella Reactor:</strong> Doubles production but adds random cheese sound FX every 5 seconds.</li>
-        <li><strong>Opera Goat Choir:</strong> Spawns 5 Goats per second, each with a unique scream.</li>
-        <li><strong>Pipi Potato Duplicator:</strong> Clicks for you while yelling “PIPI PIPI PATATAAA.”</li>
-        <li><strong>Tofu Satellite:</strong> Adds cosmic noise and multiplies brainrot speed during lunar events.</li>
-        <li><strong>Yodel Cannon:</strong> Fires a sound wave that resets your screen — and your sanity.</li>
-      </ol>
-  
-      <h4>Brainrot Aesthetics</h4>
-      <p><strong>Brainrot Clicker</strong> isn’t clean. It isn’t calm. It’s flashing, screaming, vibrating nonsense wrapped in divine pasta logic. Backgrounds morph. Sound effects clash. Fonts occasionally melt. The upgrade menu might grow eyes. That’s normal here. That’s brainrot.</p>
-  
-      <h4>Why Everyone’s Addicted to Brainrot Clicker</h4>
-      <p>There’s something special about seeing your screen fill with lasagna storms and screaming ravioli heads. <strong>Brainrot Clicker</strong> gives you the illusion of control while it slowly takes your logic hostage. People play it during meetings, in bed, or while listening to distorted opera remixes on loop. It’s more than a game — it’s a vibe.</p>
-  
-      <h4>Community Achievements</h4>
-      <p>Players worldwide are competing in “Clickless Brainrot Challenges,” sharing screenshots of their cursed factories, and making custom sound packs like “Heavy Sahur Mode” or “Brazilian Brainrot Bass Boosted.” There's even a fan-made wiki documenting upgrade lore — yes, every lasagna-based item has backstory.</p>
-  
-      <h4>Events & Limited-Time Boosts</h4>
-      <p>Expect rotating chaos: Ramadan Sahur Week, Festa della Patata, and Glorbo’s Birthday Bash all bring unique visuals, audio chaos, and temporary overpowered upgrades. Don’t miss the annual “Festival of the Fettuccine Phantom” where the game UI glitches in celebratory fashion.</p>
-  
-      <h4>Play Brainrot Clicker Free Today</h4>
-      <p>No download. No sense. Just vibes. <strong>Brainrot Clicker</strong> runs in your browser — perfect for lunch breaks, existential crises, or competitive clicking with your cousin. Start tapping, start screaming, and let your pasta-fueled destiny unfold.</p>
-  
-      <h4>One Last Click...</h4>
-      <p>We’ve said <strong>Brainrot Clicker</strong> enough times to summon three cursed lasagna angels. Your finger is ready. Your mind is weak. Your browser is open. Say it with us: <strong>Brainrot Clicker</strong> is life, and life is loud. Start clicking. Never stop.</p>
+      <h3>Game Overview</h3>
+<p><strong>Italian Brainrot Clicker</strong> is a chaotic, meme-filled incremental game where you tap your way through the viral Italian Brainrot universe! Unlock all the absurd characters and powerful upgrades as you progress. Get ready to collect an unforgettable roster of Italian Brainrot characters, including Bombardino Crocodilo, Tung Tung Tung Sahur, Tralalero Tralala, Bombombini Gussini, Cappuccino Assasino, Lirili Larila, Brr Brr Patapim, Burbaloni Luliloli, Bobritto Bandito, Trippi Troppi, Chimpanzini Bananini, and many more!</p>
+<p>Can you collect them all and become the ultimate brainrot master?</p>
+<h3>How to Play Italian Brainrot Clicker</h3>
+<p>The goal of Italian Brainrot Clicker is simple: click as much as possible to unlock upgrades and rewards along the way. The more you click, the more you earn, and the more you can upgrade!</p>
+<p>You begin the game with the default skin, <strong>Tralalero Tralala</strong> (a shark wearing Nike shoes), and "normal" weather. This is just your starting point; your objective is to click your way to the next level quickly. Just above the 200-click mark, you'll unlock <strong>Bombardino Crocodilo</strong>. Around the thousand-coin mark, you'll even unlock a new weather effect: rain! It will take some persistence to get there and beyond, but you'll quickly find yourself addicted to the speed and the thrill of upgrades. You can significantly boost your click speed and overall strategy by upgrading using your earned coins.</p>
+<img src="/images/games/games_11_01.png" style="float: right; width: 40%" alt="Italian Brainrot Clicker Game Preview" />
+
+<h4>Use Your Coins to Upgrade for a Faster Game 💰</h4>
+<p>Invest your hard-earned coins in these essential upgrades to accelerate your progress:</p>
+<ul>
+    <li><strong>50 coins:</strong> Cursor, +1 Brainrot per click</li>
+    <li><strong>125 coins:</strong> Auto Click, +1 Brainrot per second</li>
+    <li><strong>500 coins:</strong> Mr Clicker, +5 Brainrot per click</li>
+    <li><strong>1,100 coins:</strong> Tralero Tralala Farm, +6 Brainrot per second</li>
+    <li><strong>12,000 coins:</strong> Mystery reward</li>
+</ul>
+
+<h3>Unlock Upgraded Skins</h3>
+<p>Beyond Tralalero Tralala, your clicks will lead you to even more skin upgrades. These unique characters are locked and can't be bought with coins; they can only be earned through dedicated gameplay:</p>
+<ul>
+    <li><strong>Bombardiro Crocodilo:</strong> A formidable crocodile fused with a bomber plane, known for its intimidating presence and rapid-fire bomb ejection.</li>
+    <li><strong>Tung Tung Tung Tung Sahur:</strong> A heavily memeified figure, carrying a bat with a teacup sidekick. Famous for its rhythm-like chants and infinitely looping memes, often seen on social media. This skin features AI-generated speech.</li>
+    <li><strong>Brr Brr Patapim:</strong> Hailing from a whimsical, windy forest. Patapimmo lost his golden hat to a "brr-ing" frog named Slim and, following a wizard's advice, blew him away in a balloon, freeing himself to dance once more.</li>
+    <li><strong>Lirili Larila:</strong> A wandering desert elephant with a ticking clock, a shell, and a knack for spotting surreal sights like sandal-wearing cacti.</li>
+    <li><strong>Bobritto Bonito:</strong> A rodent dressed like a boss, wielding a high-powered weapon and a slick hat.</li>
+    <li><strong>Bombombini Gusini:</strong> The brother of Bombardiro Crocodilo.</li>
+    <li><strong>Burbaloni Luliloli:</strong> "Burr baloni luli loli" Capibarello Cocossini is a mythical coconut found on Bali's shores, said to contain a capybara and worshipped by locals in fiery celebrations.</li>
+    <li><strong>Cappuccino Assassino:</strong> A lightning-fast, dual-katana-wielding master of dexterity, feared even by the elusive Trippi Troppi.</li>
+    <li><strong>Chimpanzini Bananini:</strong> The viral “Chimpanzini Bananini” skin is an adorable monkey-fruit hybrid.</li>
+    <li><strong>Trippi Troppi:</strong> A unique shrimp-cat hybrid, featuring typical AI surrealism and sound madness.</li>
+</ul>
+
+<h3>Upgraded Weather</h3>
+<p>While "Normal" weather is unlocked from the start, these additional weather effects can only be unlocked through progression and upgrades:</p>
+<ul>
+    <li>Normal (Unlocked 🔐)</li>
+    <li>Rain (Locked 🔒)</li>
+    <li>Sunny (Locked 🔒)</li>
+    <li>Star Rain (Locked 🔒)</li>
+    <li>Windy (Locked 🔒)</li>
+    <li>Snowing (Locked 🔒)</li>
+</ul>
+
+<h3>More Games Like This</h3>
+<p><strong>Clicker games</strong> can be incredibly addictive thanks to their simple yet fun gameplay. If you enjoy Italian Brainrot Clicker, be sure to try some of our more popular clicker games like <a href="your-link-to-planet-clicker"><strong>Planet Clicker</strong></a>, where you tap your way to interplanetary domination in this idle game, or <a href="your-link-to-clicker-heroes"><strong>Clicker Heroes</strong></a>, an engaging clicker game where you slay down monsters with the help of different heroes.</p>
+
+<p><strong>Last Updated:</strong> June 02, 2025</p>
+
+<h4>Controls</h4>
+<p>Use the <strong>left mouse button</strong> to play and interact with the in-game UI.</p>
+
+---
+
+<h3>FAQ</h3>
+
+<p><strong>What is a brainrot meme?</strong><br>
+Several brainrot memes have gone viral on TikTok. Play the Italian Brainrot Clicker game to discover which ones you recognize!</p>
+
+<p><strong>What does brainrot mean?</strong><br>
+"Brainrot" is a concept used to describe when someone repeats a viral trend without fully understanding or knowing why they are doing so.</p>
+
+<p><strong>Can I play Italian Brainrot Clicker on my phone?</strong><br>
+Yes, you can play Italian Brainrot Clicker on your phone or most other devices, offering flexibility and convenience.</p>
     `
   },
 
@@ -667,52 +566,35 @@ export const gamesList = [
       keywords: 'Italian Brainrot, puzzle game, battle, fighting game, meme game, free online game'
     },
     detailsHtml: `
-      <h3>Italian Brainrot: Puzzle & Battle</h3>
-      <p><strong>Italian Brainrot: Puzzle & Battle</strong> is where absurd puzzle logic meets unhinged opera-fueled combat. Match ravioli. Trigger combo explosions. Summon cursed fighters. In this unholy union of match-3 gameplay and tactical meme battling, you’re not solving puzzles — you’re unleashing the entire Brainrot pantheon in glorious mozzarella-fueled combat. Welcome to <strong>Italian Brainrot: Puzzle & Battle</strong>.</p>
-  
-      <h4>What Is Italian Brainrot: Puzzle & Battle?</h4>
-      <p><strong>Italian Brainrot: Puzzle & Battle</strong> is a hybrid puzzle RPG where each match fuels your fighters’ rage. Match pasta, cheese, espresso cups, and flying shoes to fill special meters. Once charged, your brainrot warriors leap from the side of the screen and unleash chaotic attacks like “Tofu Bombardment” or “Yodel Pulse.” With every level, the board gets weirder and the battles get louder.</p>
-  
-      <h4>Gameplay Features</h4>
-      <ul>
-        <li><strong>Match-3 With Mayhem:</strong> Combine cursed symbols like screaming tomatoes and haunted meatballs to activate fighter skills.</li>
-        <li><strong>Build Your Squad:</strong> Choose a team of 3 fighters from characters like <strong>Pipi Potato</strong>, <strong>Lirili Larila</strong>, <strong>Ballerina Cappuccina</strong>, <strong>Frigo Camelo</strong>, and the legendary <strong>Cheese Pope</strong>.</li>
-        <li><strong>Special Attacks:</strong> Fill a character’s meter to unlock cinematic meme attacks (with full voice acting and glitch effects).</li>
-        <li><strong>Story Mode:</strong> Battle through the “Cathedral of Cannelloni” and “Yodeling Cliffs of Parma” in search of the Forbidden Lasagna.</li>
-        <li><strong>PvP Chaos:</strong> Challenge others online — fastest combo wins, or whoever screams louder IRL.</li>
-      </ul>
-  
-      <h4>How Puzzle Meets Brainrot Battle</h4>
-      <p>Unlike normal match-3 games, <strong>Italian Brainrot: Puzzle & Battle</strong> punishes logical thinking. Wild combos can trigger visual meltdowns. Matching cursed pasta shapes can cause in-game characters to break the fourth wall. One wrong match might summon a surprise mini-boss made entirely of espresso foam.</p>
-  
-      <h4>Playable Characters in Italian Brainrot: Puzzle & Battle</h4>
-      <ol>
-        <li><strong>Pipi Potato:</strong> A hot-tempered starch with explosive power and a signature “Mashed Meteor Shower.”</li>
-        <li><strong>Opera Goat:</strong> Screams to charge energy. His ultimate “Tenor Tempest” obliterates the entire puzzle board.</li>
-        <li><strong>Lirili Larila:</strong> Her yodeling summons extra tiles and random status effects. Sometimes helpful. Sometimes catastrophic.</li>
-        <li><strong>Ballerina Cappuccina:</strong> Elegant yet violent. Spins the board randomly, triggering accidental combos.</li>
-        <li><strong>Glorbo Fruttodrillo:</strong> A fruit-lizard hybrid. Passive skill: every turn becomes more fruity and unpredictable.</li>
-      </ol>
-  
-      <h4>Upgrade System</h4>
-      <p>Each match rewards “Sauce Shards” which can be used to unlock passive perks like:</p>
-      <ul>
-        <li><strong>Extra Tile Combos</strong> (chain 5 or more for visual fireworks)</li>
-        <li><strong>Soundtrack Mutators</strong> (replace music with goat screams, yodel loops, or cursed AM radio)</li>
-        <li><strong>Glitch Filter FX</strong> (for maximum aesthetic distortion during battle)</li>
-      </ul>
-  
-      <h4>Community Events</h4>
-      <p><strong>Italian Brainrot: Puzzle & Battle</strong> players share their builds online. Some worship the “Triple Goat Meta,” others only run “Pure Cheese Teams.” Discord tournaments include “No Espresso Runs” and “1-Minute Yodel Blitz.” Fan-made content includes combo guides, lore wikis, and meme-tier tier lists.</p>
-  
-      <h4>Seasonal Puzzle & Battle Campaigns</h4>
-      <p>Look out for special campaigns like “Lasagna of the Dead,” “Ramadan Ragu Rampage,” and “Viva Vespa Valentine.” Each includes new puzzle tiles, limited-time characters (like <strong>Saint Tiramisu</strong>), and secret boss fights hidden behind cursed tile sequences.</p>
-  
-      <h4>Play Italian Brainrot: Puzzle & Battle Now</h4>
-      <p>Start your meme-fueled puzzle quest today. <strong>Italian Brainrot: Puzzle & Battle</strong> is free, browser-based, and optimized for both chaos and opera. No download. Just click, match, scream, and fight.</p>
-  
-      <h4>The Final Piece of Puzzle & Battle</h4>
-      <p>We’ve said <strong>Italian Brainrot: Puzzle & Battle</strong> over 50 times — because it matters. Because you’re not just matching pieces — you’re unleashing the full cultural force of operatic madness. Match your pasta. Build your army. Win the battle. This is <strong>Italian Brainrot: Puzzle & Battle</strong>.</p>
+      <h3>Game Overview</h3>
+<p>Step into the absurd and hilarious world of <strong>Italian Brainrot: Puzzle & Battle</strong>, where bizarre animal characters come to life one puzzle piece at a time. Your goal is simple but strangely satisfying: drag, drop, and assemble each character’s image from scattered pieces!</p>
+<p>Each level introduces a brand-new Italian Brainrot meme character, from flying frogs to dancing cappuccinos. As you progress, the puzzles become trickier and the characters even more chaotic. Can you unlock them all and conquer the full collection? Get ready for a blend of relaxing gameplay and meme-fueled madness, all wrapped in colorful visuals and weirdly lovable creatures.</p>
+<img src="/images/games/games_12_01.png" style="float: right; width: 40%" alt="Italian Brainrot: Puzzle & Battle Game Preview" />
+<h3>How to Play Italian Brainrot: Puzzle & Battle?</h3>
+<ul>
+    <li>Use your <strong>MOUSE or touchscreen</strong> to drag pieces from the tray at the bottom.</li>
+    <li>Place each piece in the correct position to <strong>complete the character image</strong>.</li>
+    <li>Finish a puzzle to unlock the <strong>next hilarious Brainrot creature</strong>!</li>
+</ul>
+
+<h3>Key Features:</h3>
+<ul>
+    <li>Unlock a variety of viral Italian Brainrot characters.</li>
+    <li>Complete character images by dragging and placing pieces.</li>
+    <li>Each level features a new meme-inspired animal.</li>
+    <li>Perfect for all ages &mdash; no pressure, just fun puzzle-solving.</li>
+    <li>Playable on desktop and mobile with smooth drag-and-drop controls.</li>
+</ul>
+
+<h3>What other Italian brainrot Games are on TwoPlayerGames?</h3>
+<p>If you're enjoying the brainrot madness, check out these other Italian Brainrot games available on TwoPlayerGames:</p>
+<ul>
+    <li>Tung Sahur Clicker</li>
+    <li>Tung Tung Sahur Obby</li>
+    <li>Italian Brainrot Clicker</li>
+    <li>Italian Brainrot Clicker 2</li>
+    <li>Italian Brainrot: Neuro Beasts</li>
+</ul>
     `
   },
 

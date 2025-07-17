@@ -588,7 +588,7 @@ export default {
 
 .game-name {
   font-size: 0.8rem;
-  font-weight: 600;
+  line-height: 1;
   color: var(--color-text-light);
 }
 
