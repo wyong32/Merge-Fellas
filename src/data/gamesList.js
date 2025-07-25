@@ -2604,7 +2604,7 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
   iframeUrl: 'https://game.azgame.io/brain-lines/',
   gameImageSrc: '/images/game-48.webp',
   gameImageAlt: 'Brain Lines Game Preview',
-  isHot: false,
+  isHot: true,
   seo: {
     title: 'Brain Lines: Creative Drawing Physics Puzzle Game',
     description: "Test your creativity and problem-solving in Brain Lines, a physics-based puzzle game where you draw lines to solve clever challenges.",
