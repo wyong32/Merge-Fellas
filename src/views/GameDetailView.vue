@@ -83,38 +83,8 @@ const loadGame = () => {
   currentGame.value = gamesList.find((game) => game.addressBar === addressBar)
 }
 
-// Dynamic SEO using useHead
-useHead(
-  computed(() => {
-    const canonicalUrl = getCanonicalUrl(route)
-
-    if (currentGame.value && currentGame.value.seo) {
-      return {
-        title: currentGame.value.seo.title,
-        meta: getArticleSeoMeta(
-          canonicalUrl,
-          currentGame.value.seo,
-          currentGame.value.gameImageSrc
-        ),
-        link: [{ rel: 'canonical', href: canonicalUrl }],
-      }
-    } else {
-      // Fallback for game not found
-      return {
-        title: 'Game Not Found - Merge Fellas',
-        meta: [
-          {
-            name: 'description',
-            content: 'The requested game could not be found on Merge Fellas.',
-          },
-          { name: 'keywords', content: 'merge fellas, game not found, puzzle games' },
-          { name: 'robots', content: 'noindex, nofollow' },
-        ],
-        link: [{ rel: 'canonical', href: canonicalUrl }],
-      }
-    }
-  })
-)
+// 移除useHead调用，让App.vue统一管理SEO
+// 如果需要动态SEO，可以通过路由meta来设置
 
 const goBack = () => {
   router.push('/')

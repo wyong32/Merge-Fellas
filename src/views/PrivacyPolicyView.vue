@@ -182,24 +182,25 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { useHead } from '@vueuse/head'
-import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
-import { useRoute } from 'vue-router'
+// 移除useHead相关导入，让App.vue统一管理SEO
+// import { useHead } from '@vueuse/head'
+// import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
+// import { useRoute } from 'vue-router'
 
-const route = useRoute()
-const canonicalUrl = getCanonicalUrl(route)
+// const route = useRoute()
+// const canonicalUrl = getCanonicalUrl(route)
 
-useHead({
-  title: 'Privacy Policy - Merge Fellas | Data Protection & User Privacy',
-  meta: getArticleSeoMeta(canonicalUrl, {
-    title: 'Privacy Policy - Merge Fellas | Data Protection & User Privacy',
-    description:
-      'Read our comprehensive privacy policy to understand how Merge Fellas protects and handles your personal information and data.',
-    keywords:
-      'privacy policy, data protection, user privacy, personal information, Merge Fellas, GDPR compliance',
-  }),
-  link: [{ rel: 'canonical', href: canonicalUrl }],
-})
+// useHead({
+//   title: 'Privacy Policy - Merge Fellas | Data Protection & User Privacy',
+//   meta: getArticleSeoMeta(canonicalUrl, {
+//     title: 'Privacy Policy - Merge Fellas | Data Protection & User Privacy',
+//     description:
+//       'Read our comprehensive privacy policy to understand how Merge Fellas protects and handles your personal information and data.',
+//     keywords:
+//       'privacy policy, data protection, user privacy, personal information, Merge Fellas, GDPR compliance',
+//   }),
+//   link: [{ rel: 'canonical', href: canonicalUrl }],
+// })
 </script>
 
 <style scoped>

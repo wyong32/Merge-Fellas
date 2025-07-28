@@ -73,31 +73,7 @@ const findPost = () => {
   }
 }
 
-// Dynamic SEO using useHead
-useHead(
-  computed(() => {
-    const canonicalUrl = getCanonicalUrl(route)
-
-    if (post.value && post.value.seo) {
-      return {
-        title: post.value.seo.title,
-        meta: getArticleSeoMeta(canonicalUrl, post.value.seo, post.value.imageUrl, post.value.date),
-        link: [{ rel: 'canonical', href: canonicalUrl }],
-      }
-    } else {
-      // Fallback for post not found
-      return {
-        title: 'Post Not Found | Merge Fellas Blog',
-        meta: [
-          { name: 'description', content: 'The requested blog post could not be found.' },
-          { name: 'keywords', content: 'Merge Fellas, blog, not found' },
-          { name: 'robots', content: 'noindex, nofollow' },
-        ],
-        link: [{ rel: 'canonical', href: canonicalUrl }],
-      }
-    }
-  })
-)
+// 移除useHead调用，让App.vue统一管理SEO
 
 onMounted(findPost)
 watch(() => route.params.slug, findPost)

@@ -208,24 +208,25 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { useHead } from '@vueuse/head'
-import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
-import { useRoute } from 'vue-router'
+// 移除useHead相关导入，让App.vue统一管理SEO
+// import { useHead } from '@vueuse/head'
+// import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
+// import { useRoute } from 'vue-router'
 
-const route = useRoute()
-const canonicalUrl = getCanonicalUrl(route)
+// const route = useRoute()
+// const canonicalUrl = getCanonicalUrl(route)
 
-useHead({
-  title: 'About Us - Merge Fellas | Our Story & Mission',
-  meta: getArticleSeoMeta(canonicalUrl, {
-    title: 'About Us - Merge Fellas | Our Story & Mission',
-    description:
-      'Learn about Merge Fellas team, our mission to create amazing puzzle games, and our commitment to providing the best gaming experience.',
-    keywords:
-      'about us, Merge Fellas team, mission, puzzle games, game development, free games, gaming community',
-  }),
-  link: [{ rel: 'canonical', href: canonicalUrl }],
-})
+// useHead({
+//   title: 'About Us - Merge Fellas | Our Story & Mission',
+//   meta: getArticleSeoMeta(canonicalUrl, {
+//     title: 'About Us - Merge Fellas | Our Story & Mission',
+//     description:
+//       'Learn about Merge Fellas team, our mission to create amazing puzzle games, and our commitment to providing the best gaming experience.',
+//     keywords:
+//       'about us, Merge Fellas team, mission, puzzle games, game development, free games, gaming community',
+//   }),
+//   link: [{ rel: 'canonical', href: canonicalUrl }],
+// })
 </script>
 
 <style scoped>

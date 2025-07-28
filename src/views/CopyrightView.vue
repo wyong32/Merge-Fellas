@@ -212,24 +212,25 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { useHead } from '@vueuse/head'
-import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
-import { useRoute } from 'vue-router'
+// 移除useHead相关导入，让App.vue统一管理SEO
+// import { useHead } from '@vueuse/head'
+// import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
+// import { useRoute } from 'vue-router'
 
-const route = useRoute()
-const canonicalUrl = getCanonicalUrl(route)
+// const route = useRoute()
+// const canonicalUrl = getCanonicalUrl(route)
 
-useHead({
-  title: 'Copyright Information - Merge Fellas | Intellectual Property Rights',
-  meta: getArticleSeoMeta(canonicalUrl, {
-    title: 'Copyright Information - Merge Fellas | Intellectual Property Rights',
-    description:
-      'Learn about copyright and intellectual property rights for Merge Fellas games and content. Information about usage rights and restrictions.',
-    keywords:
-      'copyright, intellectual property, trademark, DMCA, usage rights, Merge Fellas, licensing',
-  }),
-  link: [{ rel: 'canonical', href: canonicalUrl }],
-})
+// useHead({
+//   title: 'Copyright Information - Merge Fellas | Intellectual Property Rights',
+//   meta: getArticleSeoMeta(canonicalUrl, {
+//     title: 'Copyright Information - Merge Fellas | Intellectual Property Rights',
+//     description:
+//       'Learn about copyright and intellectual property rights for Merge Fellas games and content. Information about usage rights and restrictions.',
+//     keywords:
+//       'copyright, intellectual property, trademark, DMCA, usage rights, Merge Fellas, licensing',
+//   }),
+//   link: [{ rel: 'canonical', href: canonicalUrl }],
+// })
 </script>
 
 <style scoped>

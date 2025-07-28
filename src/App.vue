@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useHead } from '@vueuse/head'
 import ParticleEffect from '@/components/ParticleEffect.vue'
@@ -16,53 +16,83 @@ import {
   getDefaultSeoMeta,
   getArticleSeoMeta,
 } from '@/config/site.js'
+import { gamesList } from '@/data/gamesList.js'
+import { blogData } from '@/data/blogPosts.js'
 
 const route = useRoute()
 
-// Initialize reactive data for head management
-const siteData = ref({
-  title: SITE_CONFIG.TITLE,
-  meta: getDefaultSeoMeta(SITE_CONFIG.DOMAIN),
-  link: [{ rel: 'canonical', href: SITE_CONFIG.DOMAIN }],
-})
+// 获取详情页SEO数据的函数
+const getDetailPageSeo = (route) => {
+  const { path, params } = route
 
-// Call useHead with reactive data
-useHead(siteData)
-
-// Watch for route changes and update SEO
-const updateSEO = (currentRoute) => {
-  // Generate canonical URL
-  const canonicalUrl = getCanonicalUrl(currentRoute)
-
-  console.log('Route changed:', currentRoute.path, currentRoute.meta?.seo)
-
-  // Update SEO information
-  if (currentRoute.meta && currentRoute.meta.seo) {
-    siteData.value.title = currentRoute.meta.seo.title
-    siteData.value.meta = getArticleSeoMeta(canonicalUrl, currentRoute.meta.seo)
-    console.log('Updated SEO with route meta:', currentRoute.meta.seo.title)
-  } else {
-    // Default SEO information
-    siteData.value.title = SITE_CONFIG.TITLE
-    siteData.value.meta = getDefaultSeoMeta(canonicalUrl)
-    console.log('Updated SEO with default:', SITE_CONFIG.TITLE)
+  // 游戏详情页
+  if (path.startsWith('/games/') && params.addressBar) {
+    const game = gamesList.find((g) => g.addressBar === params.addressBar)
+    if (game && game.seo) {
+      return game.seo
+    }
   }
 
-  // Update canonical URL
-  siteData.value.link = [{ rel: 'canonical', href: canonicalUrl }]
+  // 博客详情页
+  if (path.startsWith('/blog/') && params.slug) {
+    const post = blogData.posts.find((p) => p.addressBar === params.slug)
+    if (post && post.seo) {
+      return post.seo
+    }
+  }
+
+  return null
 }
 
-// Watch for route changes
+// 创建响应式的SEO数据
+const seoData = computed(() => {
+  const canonicalUrl = getCanonicalUrl(route)
+
+  // 首先检查是否有详情页SEO数据
+  const detailSeo = getDetailPageSeo(route)
+  if (detailSeo) {
+    return {
+      title: detailSeo.title,
+      meta: getArticleSeoMeta(canonicalUrl, detailSeo),
+      link: [{ rel: 'canonical', href: canonicalUrl }],
+    }
+  }
+
+  // 检查路由是否有SEO配置
+  if (route.meta && route.meta.seo) {
+    return {
+      title: route.meta.seo.title,
+      meta: getArticleSeoMeta(canonicalUrl, route.meta.seo),
+      link: [{ rel: 'canonical', href: canonicalUrl }],
+    }
+  }
+
+  // 默认SEO配置
+  return {
+    title: SITE_CONFIG.TITLE,
+    meta: getDefaultSeoMeta(canonicalUrl),
+    link: [{ rel: 'canonical', href: canonicalUrl }],
+  }
+})
+
+// 使用useHead管理SEO
+useHead(seoData)
+
+// 调试日志
 watch(
   () => route.path,
-  () => updateSEO(route),
-  { immediate: true }
-)
+  (newPath) => {
+    console.log('Route changed:', newPath)
+    console.log('Route meta:', route.meta)
+    console.log('Route params:', route.params)
 
-// Also watch for meta changes (in case dynamic route meta changes)
-watch(
-  () => route.meta,
-  () => updateSEO(route),
+    const detailSeo = getDetailPageSeo(route)
+    if (detailSeo) {
+      console.log('Detail page SEO found:', detailSeo)
+    }
+
+    console.log('Final SEO data:', seoData.value)
+  },
   { immediate: true }
 )
 </script>

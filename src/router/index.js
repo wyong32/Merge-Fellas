@@ -27,6 +27,13 @@ const router = createRouter({
       path: '/games/:addressBar',
       name: 'game-detail',
       component: () => import('../views/GameDetailView.vue'),
+      meta: {
+        seo: {
+          title: 'Game Details - Merge Fellas | Free Online Games',
+          description: 'Play exciting merge games on Merge Fellas. Discover new puzzle games and enjoy free online gaming.',
+          keywords: 'merge games, puzzle games, free games, online games, Merge Fellas'
+        }
+      }
     },
     {
       path: '/games',
@@ -68,6 +75,13 @@ const router = createRouter({
       path: '/blog/:slug',
       name: 'blog-detail',
       component: () => import('../views/BlogDetailView.vue'),
+      meta: {
+        seo: {
+          title: 'Blog Post - Merge Fellas | Game Guides and Tips',
+          description: 'Read Merge Fellas blog posts for game guides, tips, and latest news about merge games.',
+          keywords: 'Merge Fellas blog, game guides, merge game tips, gaming news'
+        }
+      }
     },
     // Legal Pages
     {

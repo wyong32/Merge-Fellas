@@ -196,24 +196,25 @@
 <script setup>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { useHead } from '@vueuse/head'
-import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
-import { useRoute } from 'vue-router'
+// 移除useHead相关导入，让App.vue统一管理SEO
+// import { useHead } from '@vueuse/head'
+// import { getCanonicalUrl, getArticleSeoMeta } from '@/config/site.js'
+// import { useRoute } from 'vue-router'
 
-const route = useRoute()
-const canonicalUrl = getCanonicalUrl(route)
+// const route = useRoute()
+// const canonicalUrl = getCanonicalUrl(route)
 
-useHead({
-  title: 'Terms of Service - Merge Fellas | User Agreement & Service Rules',
-  meta: getArticleSeoMeta(canonicalUrl, {
-    title: 'Terms of Service - Merge Fellas | User Agreement & Service Rules',
-    description:
-      'Read our terms of service to understand the rules and guidelines for using Merge Fellas games and services.',
-    keywords:
-      'terms of service, user agreement, service rules, legal terms, Merge Fellas, user responsibilities',
-  }),
-  link: [{ rel: 'canonical', href: canonicalUrl }],
-})
+// useHead({
+//   title: 'Terms of Service - Merge Fellas | User Agreement & Service Rules',
+//   meta: getArticleSeoMeta(canonicalUrl, {
+//     title: 'Terms of Service - Merge Fellas | User Agreement & Service Rules',
+//     description:
+//       'Read our terms of service to understand the rules and guidelines for using Merge Fellas games and services.',
+//     keywords:
+//       'terms of service, user agreement, service rules, legal terms, Merge Fellas, user responsibilities',
+//   }),
+//   link: [{ rel: 'canonical', href: canonicalUrl }],
+// })
 </script>
 
 <style scoped>
