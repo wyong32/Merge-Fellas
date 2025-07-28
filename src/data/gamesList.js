@@ -2633,6 +2633,44 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
     <p><strong>Brain Lines</strong> is perfect for puzzle lovers who enjoy experimenting with creative solutions. Each level allows multiple approaches, making it a game of both intelligence and imagination. Can you solve every puzzle?</p>
   `
 },
+
+{
+  id: 49,
+  title: 'Bubble Shooter',
+  addressBar: 'bubble-shooter',
+  iframeUrl: 'https://cdn.bubbleshooter.net/games/bubble-shooter-mobile/?gd_sdk_referrer_url=https://www.jopi.com/game/game/bubble-shooter/',
+  gameImageSrc: '/images/game-49.webp',
+  gameImageAlt: 'Bubble Shooter Game Preview',
+  isHot: false,
+  seo: {
+    title: 'Bubble Shooter: Classic Bubble Matching Puzzle Game',
+    description: 'Play Bubble Shooter for free online! Match three or more bubbles, clear the board, and test your aim in this timeless bubble-popping classic.',
+    keywords: 'Bubble Shooter, bubble game, match 3, puzzle game, bubble pop, free online game'
+  },
+  detailsHtml: `
+    <h3>Bubble Shooter</h3>
+    <p><strong>Bubble Shooter</strong> is a timeless puzzle game that combines strategy, quick thinking, and precision aiming. Your goal is simple yet addictive: shoot bubbles to create groups of three or more of the same color and clear the board.</p>
+
+    <h4>How to Play</h4>
+    <p>Use your mouse or touch controls to aim and shoot bubbles from the cannon at the bottom of the screen. Matching three or more bubbles of the same color will pop them, earning you points. Clear all bubbles to win!</p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li><strong>Classic Gameplay:</strong> Simple but endlessly fun bubble-shooting mechanics.</li>
+      <li><strong>Challenging Levels:</strong> As you progress, bubble patterns become more complex.</li>
+      <li><strong>Easy Controls:</strong> Aim with your mouse or finger and shoot with a click or tap.</li>
+      <li><strong>Score Combos:</strong> Pop multiple bubbles at once to score big and trigger cascading effects.</li>
+    </ul>
+
+    <h4>Controls</h4>
+    <p><strong>PC:</strong> Move your mouse to aim and click to shoot.<br>
+       <strong>Mobile:</strong> Tap where you want the bubble to go and release to shoot.</p>
+
+    <h4>Why Play Bubble Shooter?</h4>
+    <p><strong>Bubble Shooter</strong> is perfect for relaxing and sharpening your focus at the same time. Whether you want a quick gaming session or hours of bubble-popping fun, this game delivers classic arcade nostalgia and addictive gameplay in one package. Can you clear the board and set a new high score?</p>
+  `
+}
+
   
   
 ] 
