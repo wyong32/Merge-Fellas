@@ -2669,7 +2669,45 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
     <h4>Why Play Bubble Shooter?</h4>
     <p><strong>Bubble Shooter</strong> is perfect for relaxing and sharpening your focus at the same time. Whether you want a quick gaming session or hours of bubble-popping fun, this game delivers classic arcade nostalgia and addictive gameplay in one package. Can you clear the board and set a new high score?</p>
   `
+},
+
+{
+  id: 50,
+  title: 'Big Block Blast',
+  addressBar: 'big-block-blast',
+  iframeUrl: 'https://html5.gamedistribution.com/rvvASMiM/058a3fd0d58949be9b79e666de9ac36d/index.html?gd_sdk_referrer_url=https%3A%2F%2F1games.io%2Fbig-block-blast&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovLzFnYW1lcy5pby9iaWctYmxvY2stYmxhc3QiLCJwYXJlbnREb21haW4iOiIxZ2FtZXMuaW8iLCJ0b3BEb21haW4iOiIxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D',
+  gameImageSrc: '/images/game-50.webp',
+  gameImageAlt: 'Big Block Blast Game Preview',
+  isHot: true,
+  seo: {
+    title: 'Big Block Blast – Explosive Color Puzzle Challenge',
+    description: 'Play Big Block Blast online for free! Place colorful block shapes, create combos, and unlock satisfying chain reactions in this addictive puzzle game.',
+    keywords: 'Big Block Blast, block puzzle, color match puzzle, combo blocks, free online puzzle game'
+  },
+  detailsHtml: `
+    <h3>Big Block Blast</h3>
+    <p><strong>Big Block Blast</strong> is an exciting twist on classic block puzzles, adding bright colors, clever mechanics, and chain-reaction combos that make every placement matter. Whether you're a casual player or a puzzle master, this game offers endless strategic fun.</p>
+
+    <h4>How to Play</h4>
+    <p>Drag and drop shapes made of squares and triangles onto the compact grid. Your main goal is to create complete 2x2 "Big Blocks." Matching colors inside those blocks triggers bonus points and chain reactions, clearing more space for new shapes. But be careful—every move counts as the board can fill up fast!</p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li><strong>Colorful Challenge:</strong> Match shapes and colors for satisfying combos.</li>
+      <li><strong>Special Wild Blocks:</strong> Use special pieces to unlock tight spaces and escape tricky situations.</li>
+      <li><strong>Dynamic Gameplay:</strong> Every move brings new shapes and fresh strategies.</li>
+      <li><strong>Relax or Compete:</strong> Play at your own pace or push for the highest score.</li>
+    </ul>
+
+    <h4>Controls</h4>
+    <p><strong>PC:</strong> Click and drag blocks into position on the board.<br>
+       <strong>Mobile:</strong> Tap and drag with your finger to place each piece.</p>
+
+    <h4>Why Play Big Block Blast?</h4>
+    <p><strong>Big Block Blast</strong> combines simple controls with deep strategy, rewarding careful planning and creative moves. From building chain reactions to using wild blocks at the perfect time, every session feels fresh and satisfying. Can you keep the board clear and set a record-breaking score?</p>
+  `
 }
+
 
   
   
