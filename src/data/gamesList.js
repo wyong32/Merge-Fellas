@@ -2706,6 +2706,80 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
     <h4>Why Play Big Block Blast?</h4>
     <p><strong>Big Block Blast</strong> combines simple controls with deep strategy, rewarding careful planning and creative moves. From building chain reactions to using wild blocks at the perfect time, every session feels fresh and satisfying. Can you keep the board clear and set a record-breaking score?</p>
   `
+},
+
+{
+  "id": 51,
+  "title": "Astro Robot Clicker",
+  "addressBar": "astro-robot-clicker",
+  "iframeUrl": "https://game.azgame.io/astro-robot-clicker/",
+  "gameImageSrc": "/images/game-51.webp",
+  "gameImageAlt": "Astro Robot Clicker Game Preview",
+  "isHot": true,
+  "seo": {
+    "title": "Astro Robot Clicker - Build Your Galactic Empire",
+    "description": "Play Astro Robot Clicker online for free! Tap, upgrade, and expand your robot army across the galaxy in this addictive idle clicker game.",
+    "keywords": "Astro Robot Clicker, clicker game, idle game, space exploration, robot game, free online game"
+  },
+  "detailsHtml": `
+    <h3>Astro Robot Clicker</h3>
+    <p><strong>Astro Robot Clicker</strong> is an engaging idle game that sends you on an epic quest through the stars. Your mission is to build a powerful robot army, explore the cosmos, and establish a technological empire that spans the entire galaxy. Start your journey with a simple tap and watch your influence grow exponentially!</p>
+
+    <h4>How to Play</h4>
+    <p>The game is easy to learn but hard to put down. Simply click or tap to generate resources and build your first robots. Use these resources to purchase upgrades, unlock new robot types, and automate your production. The more you upgrade, the faster you'll expand your empire, even when you're not actively playing!</p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li><strong>Endless Upgrades:</strong> Unlock dozens of upgrades and enhancements to boost your production rate.</li>
+      <li><strong>Automated Gameplay:</strong> Your robot army continues to work for you, generating resources even when you're offline.</li>
+      <li><strong>Galactic Conquest:</strong> Explore new planets and star systems, each with unique challenges and rewards.</li>
+      <li><strong>Strategic Choices:</strong> Decide whether to focus on raw production, efficient upgrades, or discovering new technologies.</li>
+    </ul>
+
+    <h4>Controls</h4>
+    <p><strong>PC:</strong> Use the mouse to click and interact with the game's interface.<br>
+    <strong>Mobile:</strong> Tap the screen with your finger to build, upgrade, and explore.</p>
+
+    <h4>Why Play Astro Robot Clicker?</h4>
+    <p>If you love the satisfaction of seeing your numbers grow and building something from nothing, <strong>Astro Robot Clicker</strong> is the game for you. With its captivating theme, simple controls, and deep progression system, it's the perfect game to play for a few minutes or a few hours. Will you become the ultimate galactic overlord?</p>
+  `
+},
+
+{
+  "id": 52,
+  "title": "Spear Warzone",
+  "addressBar": "spear-warzone",
+  "iframeUrl": "https://html5.gamedistribution.com/rvvASMiM/058a3fd0d58949be9b79e666de9ac36d/index.html?gd_sdk_referrer_url=https%3A%2F%2F1games.io%2Fbig-block-blast&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovLzFnYW1lcy5pby9iaWctYmxvY2stYmxhc3QiLCJwYXJlbnREb21haW4iOiIxZ2FtZXMuaW8iLCJ0b3BEb21haW4iOiIxZ2FtZXMuaW8iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+  "gameImageSrc": "/images/game-52.webp",
+  "gameImageAlt": "Spear Warzone Game Preview",
+  "isHot": true,
+  "seo": {
+    "title": "Spear Warzone - Stickman Action & Strategy Game",
+    "description": "Play Spear Warzone online for free! Master the art of the spear, defeat various stickman enemies, and upgrade your warrior in this fast-paced 2D action game.",
+    "keywords": "Spear Warzone, stickman game, action game, spear throwing, 2D fighter, free online game"
+  },
+  "detailsHtml": `
+    <h3>Spear Warzone</h3>
+    <p><strong>Spear Warzone</strong> is an exhilarating 2D action game where you take on the role of a lone stickman warrior fighting for survival. Armed with only a spear, you must face off against a variety of cunning enemies, including archers, swordsmen, javelin throwers, and even powerful magicians. The gameplay is deceptively simple, focusing on precision and reflexes as you throw your spear while dodging a barrage of incoming attacks. With each successful victory, the challenges grow, and you'll need to be quicker and more accurate to outsmart your opponents.</p>
+
+    <h4>How to Play</h4>
+    <p>Your primary goal is to defeat all enemies on screen by throwing your spear. The key to success is adjusting your aim carefully—a well-placed shot is far more effective than a random toss. As you advance, enemies will become more numerous and their attacks more relentless, forcing you to balance precise aiming with quick action. Be sure to collect coins from fallen foes to upgrade your warrior and improve your chances of survival.</p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li><strong>Skill-Based Action:</strong> Master the art of the spear with simple yet engaging drag-and-drop mechanics.</li>
+      <li><strong>Dynamic Enemies:</strong> Battle against a diverse cast of foes, each with unique attack patterns and abilities.</li>
+      <li><strong>Powerful Upgrades:</strong> Collect coins to purchase a wide array of upgrades for your warrior, including helmets and more powerful spears.</li>
+      <li><strong>Progressive Difficulty:</strong> Face increasingly challenging waves of enemies that will test your reflexes and strategy.</li>
+    </ul>
+
+    <h4>Controls</h4>
+    <p><strong>Aim:</strong> Click and drag the mouse (or your finger on mobile) to set the angle and power of your throw.<br>
+    <strong>Throw:</strong> Release the mouse button (or your finger) to launch the spear at your target.</p>
+
+    <h4>Why Play Spear Warzone?</h4>
+    <p>If you're looking for a fast-paced action game that's easy to learn but difficult to master, <strong>Spear Warzone</strong> is the perfect choice. It combines a classic stickman art style with rewarding, skill-based gameplay that will keep you on your toes. Can you become the ultimate spear-throwing champion and defeat every enemy in your path?</p>
+  `
 }
 
 
