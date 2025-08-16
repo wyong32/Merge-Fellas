@@ -15,7 +15,7 @@
           <ins
             class="adsbygoogle"
             style="display: block; min-height: 90px; margin: 10px 0; width: 100%"
-            data-ad-client="ca-pub-8698738517703947"
+            data-ad-client="ca-pub-4224010041977181"
             data-ad-slot="4266230179"
             data-ad-format="auto"
             data-full-width-responsive="true"
@@ -31,7 +31,7 @@
           <ins
             class="adsbygoogle"
             style="display: block"
-            data-ad-client="ca-pub-8698738517703947"
+            data-ad-client="ca-pub-4224010041977181"
             data-ad-slot="7116604857"
             data-ad-format="auto"
             data-full-width-responsive="true"
@@ -107,7 +107,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, watchEffect } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import GameBoard from '@/components/GameBoard.vue'
@@ -115,6 +116,9 @@ import HotGames from '@/components/HotGames.vue'
 import { mainGame } from '@/data'
 
 import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+
+const isProd = import.meta.env.PROD
+const route = useRoute()
 
 const videoLoaded = ref(false)
 const { isMobile } = useDeviceDetection()
@@ -124,7 +128,7 @@ const loadAds = () => {
   if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
     try {
       // 只处理当前页面中的广告元素
-      const homeContainer = document.querySelector('.page-wrapper')
+      const homeContainer = document.querySelector('.page-container')
       if (!homeContainer) return
 
       const adElements = homeContainer.querySelectorAll('.adsbygoogle')
@@ -133,9 +137,8 @@ const loadAds = () => {
       const adsToReload = []
       adElements.forEach((el, index) => {
         const status = el.getAttribute('data-ad-status')
-        const hasContent = el.children.length > 0
 
-        if (!status || status === 'unfilled' || !hasContent) {
+        if (!status || status === 'unfilled') {
           adsToReload.push({ element: el, index })
         }
       })
@@ -192,9 +195,13 @@ onMounted(() => {
   document.addEventListener('visibilitychange', handleVisibilityChange)
 
   // 监听路由变化
-  const unwatch = watchEffect(() => {
-    setTimeout(loadAds, 2000)
-  })
+  const unwatch = watch(
+    () => route.fullPath,
+    () => {
+      setTimeout(loadAds, 2000)
+    },
+    { immediate: true }
+  )
 
   // 清理监听器
   onUnmounted(() => {
