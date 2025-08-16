@@ -6,6 +6,38 @@
     <!-- 主内容区域 -->
     <main class="main-content">
       <div class="container">
+        <!-- PC横幅广告 -->
+        <aside
+          class="ads-wrapper"
+          v-if="!isMobile"
+          style="width: 100%; min-height: 90px; margin: 10px 0"
+        >
+          <ins
+            class="adsbygoogle"
+            style="display: block; min-height: 90px; margin: 10px 0; width: 100%"
+            data-ad-client="ca-pub-8698738517703947"
+            data-ad-slot="4266230179"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
+
+        <!-- 移动横幅广告 -->
+        <aside
+          class="ads-wrapper"
+          v-if="isMobile"
+          style="width: 100%; min-height: 90px; margin: 10px 0"
+        >
+          <ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-8698738517703947"
+            data-ad-slot="7116604857"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+        </aside>
+
         <h1 class="page-title">Start Merge Fellas</h1>
         <div class="content-area">
           <!-- 游戏板块组件 -->
@@ -75,14 +107,101 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted, watchEffect } from 'vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import GameBoard from '@/components/GameBoard.vue'
 import HotGames from '@/components/HotGames.vue'
 import { mainGame } from '@/data'
 
+import { useDeviceDetection } from '@/utils/useDeviceDetection.js'
+
 const videoLoaded = ref(false)
+const { isMobile } = useDeviceDetection()
+
+// 手动触发广告加载
+const loadAds = () => {
+  if (window.adsbygoogle && typeof window.adsbygoogle.push === 'function') {
+    try {
+      // 只处理当前页面中的广告元素
+      const homeContainer = document.querySelector('.page-wrapper')
+      if (!homeContainer) return
+
+      const adElements = homeContainer.querySelectorAll('.adsbygoogle')
+
+      // 检查哪些广告需要重新加载
+      const adsToReload = []
+      adElements.forEach((el, index) => {
+        const status = el.getAttribute('data-ad-status')
+        const hasContent = el.children.length > 0
+
+        if (!status || status === 'unfilled' || !hasContent) {
+          adsToReload.push({ element: el, index })
+        }
+      })
+
+      if (adsToReload.length === 0) {
+        return
+      }
+
+      adsToReload.forEach(({ element, index }) => {
+        try {
+          // 标记广告元素已处理
+          element.setAttribute('data-ad-status', 'loading')
+          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+        } catch (pushError) {
+          // 忽略重复加载错误
+          if (!pushError.message.includes('already have ads')) {
+            console.error('HomeView广告加载失败:', pushError)
+          }
+          // 移除标记，允许重试
+          element.removeAttribute('data-ad-status')
+        }
+      })
+    } catch (e) {
+      console.error('HomeView广告加载失败:', e)
+    }
+  } else {
+    // 如果 adsbygoogle 还没加载，延迟重试
+    setTimeout(loadAds, 1000)
+  }
+}
+
+// 监听广告脚本加载完成
+const waitForAdScript = () => {
+  if (window.adsbygoogle) {
+    // 延迟加载广告，确保页面完全渲染
+    setTimeout(loadAds, 3000)
+  } else {
+    setTimeout(waitForAdScript, 100)
+  }
+}
+
+// 监听页面可见性变化，重新加载广告
+const handleVisibilityChange = () => {
+  if (!document.hidden) {
+    setTimeout(loadAds, 1000)
+  }
+}
+
+onMounted(() => {
+  // 等待广告脚本加载完成后立即加载广告
+  waitForAdScript()
+
+  // 监听页面可见性变化
+  document.addEventListener('visibilitychange', handleVisibilityChange)
+
+  // 监听路由变化
+  const unwatch = watchEffect(() => {
+    setTimeout(loadAds, 2000)
+  })
+
+  // 清理监听器
+  onUnmounted(() => {
+    document.removeEventListener('visibilitychange', handleVisibilityChange)
+    unwatch()
+  })
+})
 
 const loadVideo = () => {
   videoLoaded.value = true
