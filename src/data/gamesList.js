@@ -2863,7 +2863,80 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
     <h4>Why Play Curve Rush 2?</h4>
     <p>If you love high-speed rolling action and momentum-based challenges, <strong>Curve Rush 2</strong> delivers endless fun. With improved visuals, new obstacles, and special balls, every run feels fresh. How far can you roll without crashing?</p>
   `
+},
+
+{
+  "id": 55,
+  "title": "Slope Rider",
+  "addressBar": "slope-rider",
+  "iframeUrl": "https://game.azgame.io/slope-rider/",
+  "gameImageSrc": "/images/game-55.webp",
+  "gameImageAlt": "Slope Rider Game Preview",
+  "isHot": true,
+  "seo": {
+    "title": "Slope Rider - Thrilling Endless Sledding Adventure",
+    "description": "Play Slope Rider online for free! Ride your sled across snowy slopes, dodge deadly obstacles, collect gifts, and unlock stylish sleds in this fast-paced winter survival game.",
+    "keywords": "Slope Rider, sledding game, winter game, snow racing, endless runner, free online game"
+  },
+  "detailsHtml": `
+    <h3>About Slope Rider</h3>
+    <p><strong>Slope Rider</strong> is a thrilling sledding adventure that challenges you to survive as long as possible on icy slopes packed with deadly obstacles and unpredictable terrain. Glide through breathtaking snowy landscapes, dodge hazards, and aim for the highest score!</p>
+
+    <img src="/images/game-55-01.webp" alt="Slope Rider Game Preview" />
+    
+    <h4>Slope Rider: Enjoy the Fast-Paced &amp; Unpredictable Terrain</h4>
+    <p>This endless sledding game takes you on a high-speed ride through snowy forests and icy trails. The objective is simple yet tough: survive on ever-changing slopes while avoiding obstacles. The longer you last, the higher your score climbs.</p>
+    <p>Beware, though—pine trees, rolling snowballs, ice-capped boulders, and falling ice can all end your run in a split second. Every turn requires razor-sharp reflexes and precise control.</p>
+
+    <h4>Steer For Your Survival: Don’t Crash!</h4>
+    <p>Your sled moves forward automatically at breakneck speed, leaving you in charge of steering left, right, or jumping to dodge hazards. Collisions mean instant game over, so focus on smooth navigation and quick reactions to keep going.</p>
+
+    <h4>Collect Gifts &amp; Unlock New Sleds</h4>
+    <p>Gift boxes are scattered along your route. Collect them to unlock stylish new sleds with unique looks. But beware—going after a gift could put you at risk of crashing. Balance between chasing rewards and staying alive.</p>
+
+    <h4>Why Play Slope Rider?</h4>
+    <p>If you enjoy fast-paced, adrenaline-pumping winter challenges, <strong>Slope Rider</strong> delivers the perfect mix of thrill and fun. With endless snowy terrain, unpredictable obstacles, and unlockable sleds, every run is a fresh test of skill. How far can you ride before the mountain takes you down?</p>
+  `
+},
+
+{
+  "id": 56,
+  "title": "Meme Puzzle",
+  "addressBar": "meme-puzzle",
+  "iframeUrl": "https://game.azgame.io/meme-puzzle/",
+  "gameImageSrc": "/images/game-56.webp",
+  "gameImageAlt": "Meme Puzzle Game Preview",
+  "isHot": false,
+  "seo": {
+    "title": "Meme Puzzle - Funny Meme Image Puzzle Game",
+    "description": "Play Meme Puzzle online for free! Piece together hilarious meme images, relax, laugh, and unlock endless meme combinations in this addictive casual puzzle game.",
+    "keywords": "Meme Puzzle, meme game, puzzle game, funny memes, casual puzzle, free online game"
+  },
+  "detailsHtml": `
+    <h3>About Meme Puzzle</h3>
+    <p><strong>Meme Puzzle</strong> is a lighthearted and casual puzzle game where your goal is to piece together hilarious meme images. Each level presents a new challenge filled with humor, making the experience both fun and relaxing.</p>
+
+    <img src="/images/game-56-01.webp" alt="Meme Puzzle Game Preview" />
+
+    <h4>Gameplay Overview</h4>
+    <p>Arrange shuffled puzzle pieces to complete meme images. As you solve each puzzle, you unlock new memes, keeping the game fresh and entertaining. The more you play, the more meme combinations you’ll discover!</p>
+
+    <h4>Why Play Meme Puzzle?</h4>
+    <p>If you love memes and enjoy puzzle-solving, <strong>Meme Puzzle</strong> is the perfect blend of humor and challenge. Whether you want a quick laugh or a casual puzzle experience, this game offers endless fun with its ever-growing collection of meme images.</p>
+
+    <h4>Key Features</h4>
+    <ul>
+      <li><strong>Funny Meme Content:</strong> Solve puzzles that reveal hilarious internet memes.</li>
+      <li><strong>Relaxing Gameplay:</strong> Casual and easy to pick up, perfect for quick sessions.</li>
+      <li><strong>Endless Combinations:</strong> Keep unlocking new meme puzzles for nonstop fun.</li>
+      <li><strong>Accessible Anywhere:</strong> Play directly in your browser, no download needed.</li>
+    </ul>
+  `
 }
+
+
+
+
 
 
 
