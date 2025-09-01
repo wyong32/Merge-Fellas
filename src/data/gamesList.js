@@ -2932,7 +2932,85 @@ Yes, you can play Italian Brainrot Clicker on your phone or most other devices, 
       <li><strong>Accessible Anywhere:</strong> Play directly in your browser, no download needed.</li>
     </ul>
   `
+},
+
+{
+  "id": 57,
+  "title": "Lizard Lizard Clicker",
+  "addressBar": "lizard-lizard-clicker",
+  "iframeUrl": "https://game.azgame.io/lizard-lizard-clicker/",
+  "gameImageSrc": "/images/game-57.webp",
+  "gameImageAlt": "Lizard Lizard Clicker Game Preview",
+  "isHot": true,
+  "seo": {
+    "title": "Lizard Lizard Clicker - Cute Idle Clicker Game",
+    "description": "Play Lizard Lizard Clicker online for free! Click, collect, and upgrade quirky lizards in this fun and relaxing idle clicker game. Unlock as many lizards as you can and watch your points grow.",
+    "keywords": "Lizard Lizard Clicker, idle clicker game, lizard clicker, casual game, clicker game, online game, free clicker"
+  },
+  "detailsHtml": `
+    <h3>About Lizard Lizard Clicker</h3>
+    <p><strong>Lizard Lizard Clicker</strong> is a delightful idle clicker game where you meet and collect a cast of cute and quirky lizards. Click, earn points, and unlock as many lizards as possible while upgrading your abilities for faster progress. This casual game is perfect for laid-back gaming sessions filled with charm and humor.</p>
+
+    <img src="/images/game-57-01.webp" alt="Lizard Lizard Clicker Game Preview" />
+
+    <h4>Gameplay Overview</h4>
+    <p>In <strong>Lizard Lizard Clicker</strong>, the gameplay revolves around clicking to earn points and purchasing upgrades to increase your earnings. Each click helps you unlock new lizards and upgrade your click power, gradually automating the process and accelerating your progress. The combination of idle mechanics and active clicking keeps the game engaging and rewarding.</p>
+
+    <h4>How to Play</h4>
+    <p>There are no strict objectives in Lizard Lizard Clicker. Enjoy a stress-free experience while unlocking new lizards, collecting points, and experimenting with upgrades.</p>
+    <ul>
+      <li><strong>Click to Earn Points:</strong> Start by repeatedly clicking the main lizard to gain points. One click initially gives one point, but faster clicking can earn more points per tap.</li>
+      <li><strong>Purchase Upgrades:</strong> Use accumulated points to buy upgrades that boost your click power or generate points automatically over time. Early upgrades may be modest, but they build the foundation for exponential growth.</li>
+      <li><strong>Unlock More Lizards:</strong> Reaching milestones allows you to discover and unlock new quirky lizards, each adding charm and fun to your collection.</li>
+      <li><strong>Invest Strategically:</strong> Continue purchasing upgrades to accelerate your point accumulation and unlock higher-tier lizards. Watch your progress soar as you invest wisely.</li>
+    </ul>
+
+    <h4>Game Controls</h4>
+    <p>Simply tap or click on the lizard to generate points. Use the interface buttons to purchase upgrades and manage your lizard collection efficiently. Focus on building your clicker empire and enjoy the relaxing idle gameplay experience.</p>
+  `
+},
+
+{
+  "id": 58,
+  "title": "Hoop Legends",
+  "addressBar": "hoop-legends",
+  "iframeUrl": "https://game.azgame.io/hoop-legends/",
+  "gameImageSrc": "/images/game-58.webp",
+  "gameImageAlt": "Hoop Legends Game Preview",
+  "isHot": true,
+  "seo": {
+    "title": "Hoop Legends - Realistic 3D Basketball Game",
+    "description": "Play Hoop Legends online for free! Enjoy realistic 3D basketball gameplay with multiple modes, customization options, and intuitive controls. Score points, unlock courts and balls, and become a hoop legend.",
+    "keywords": "Hoop Legends, 3D basketball game, basketball online, sports game, hoop game, free online game, casual basketball"
+  },
+  "detailsHtml": `
+    <h3>About Hoop Legends</h3>
+    <p><strong>Hoop Legends</strong> is a realistic 3D basketball game featuring immersive visuals, lifelike animations, and smooth gameplay. With multiple modes and customization options, this game brings the thrill of basketball right to your browser. Play on AZgames.io and enjoy fast-paced basketball action anytime.</p>
+
+    <img src="/images/game-58-01.webp" alt="Hoop Legends Game Preview" />
+
+    <h4>More About Hoop Legends</h4>
+    <p><strong>Hoop Legends</strong> is perfect for anyone seeking quick and exciting hoops gameplay. The game focuses on scoring and shooting rather than passing or defense, keeping the action intense and satisfying. Players can enjoy a variety of game modes, unlockable courts, customizable uniforms, and basketball skins, all while experiencing realistic basketball visuals.</p>
+
+    <h4>Gameplay Highlights</h4>
+    <ul>
+      <li><strong>Realistic 3D Graphics:</strong> Smooth animations and lifelike visuals make each shot feel authentic.</li>
+      <li><strong>Multiple Game Modes:</strong> Play single-player challenges, time-based shooting games, or competitive matches.</li>
+      <li><strong>Customization Options:</strong> Unlock new uniforms, basketball skins, and courts with earned MP points.</li>
+      <li><strong>Simple Controls:</strong> Intuitive controls make it easy to aim, shoot, and score.</li>
+    </ul>
+
+    <h4>Shoot the Hoop & Become a Court Legend</h4>
+    <p>Start by selecting your favorite game mode and jump into the action. Aim to score as many baskets as possible within the time limit or outscore your opponent in competitive modes.</p>
+    <p>To shoot, drag with the left mouse button to aim your shot, then release to throw the ball toward the hoop. Only successful shots count, and the more baskets you make, the higher your score climbs.</p>
+    <p>Earn MP to unlock new basketballs, courts, and uniforms, some of which provide small performance boosts and enhance your gameplay experience.</p>
+
+    <h4>Game Controls</h4>
+    <p>Swipe or drag the left mouse button to aim and throw the basketball. Adjust your angle and power to maximize scoring and achieve the highest points in every game mode.</p>
+  `
 }
+
+
 
 
 
