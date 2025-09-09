@@ -2,11 +2,11 @@
   <!-- Hot Games板块 -->
   <section class="hot-games-section">
     <div class="hot-games-grid">
-      <div
+      <a
         v-for="game in hotGames"
         :key="game.name"
         class="game-card"
-        @click="goToGame(game.addressBar)"
+        :href="`/games/${game.addressBar}`"
       >
         <img
           :src="game.image"
@@ -18,7 +18,7 @@
         <div class="game-card-info">
           <h3 class="game-card-title">{{ game.name }}</h3>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 </template>
@@ -41,9 +41,9 @@ const hotGames = computed(() => {
     }))
 })
 
-const goToGame = (addressBar) => {
-  router.push(`/games/${addressBar}`)
-}
+// const goToGame = (addressBar) => {
+//   router.push(`/games/${addressBar}`)
+// }
 </script>
 
 <style scoped>
