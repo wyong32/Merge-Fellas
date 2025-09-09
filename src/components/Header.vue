@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header-content">
       <!-- 左侧Logo -->
-      <RouterLink to="/" class="logo">
+      <a href="/" class="logo">
         <div class="logo-icon">
           <span class="logo-text">M</span>
           <div class="logo-particles">
@@ -15,7 +15,7 @@
           <span class="logo-merge">Merge</span>
           <span class="logo-fellas">Fellas</span>
         </div>
-      </RouterLink>
+      </a>
 
       <!-- 桌面端导航菜单 -->
       <nav class="nav-menu desktop-nav">
