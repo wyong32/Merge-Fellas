@@ -26,31 +26,31 @@
           <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><router-link to="/">Home</router-link></li>
-              <li><router-link to="/games">Games</router-link></li>
-              <li><router-link to="/brainrot-characters">Brainrot Characters</router-link></li>
-              <li><router-link to="/blog">Blog</router-link></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/games">Games</a></li>
+              <li><a href="/brainrot-characters">Brainrot Characters</a></li>
+              <li><a href="/blog">Blog</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Hot Game</h4>
             <ul>
               <li>
-                <router-link to="/games/2048-italian-brainrot">2048 Italian Brainrot</router-link>
+                <a href="/games/2048-italian-brainrot">2048 Italian Brainrot</a>
               </li>
               <li>
-                <router-link to="/games/italian-brainrot-jigsaw"
-                  >Italian Brainrot Jigsaw</router-link
+                <a href="/games/italian-brainrot-jigsaw"
+                  >Italian Brainrot Jigsaw</a
                 >
               </li>
               <li>
-                <router-link to="/games/tralalero-tralala-clicker"
-                  >Tralalero Tralala Clicker</router-link
+                <a href="/games/tralalero-tralala-clicker"
+                  >Tralalero Tralala Clicker</a
                 >
               </li>
               <li>
-                <router-link to="/games/italian-brainrot-puzzle-battle"
-                  >Italian Brainrot: Puzzle & Battle</router-link
+                <a href="/games/italian-brainrot-puzzle-battle"
+                  >Italian Brainrot: Puzzle & Battle</a
                 >
               </li>
             </ul>
@@ -58,11 +58,11 @@
           <div class="footer-links">
             <h4>Legal</h4>
             <ul>
-              <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
-              <li><router-link to="/terms-of-service">Terms of Service</router-link></li>
-              <li><router-link to="/copyright">Copyright</router-link></li>
-              <li><router-link to="/about-us">About Us</router-link></li>
-              <li><router-link to="/contact-us">Contact Us</router-link></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-of-service">Terms of Service</a></li>
+              <li><a href="/copyright">Copyright</a></li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
         </div>

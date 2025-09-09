@@ -21,10 +21,10 @@
       <nav class="nav-menu desktop-nav">
         <ul class="nav-list">
           <li v-for="item in navItems" :key="item.name" class="nav-item">
-            <router-link :to="item.route" class="nav-link">
+            <a :href="item.route" class="nav-link">
               <span class="nav-label">{{ item.name }}</span>
               <div class="nav-glow"></div>
-            </router-link>
+            </a>
           </li>
         </ul>
         <div class="nav-line"></div>
@@ -55,9 +55,9 @@
     >
       <ul class="mobile-nav-list">
         <li v-for="item in navItems" :key="item.name" class="mobile-nav-item">
-          <router-link :to="item.route" class="mobile-nav-link" @click="closeMobileNav">
+          <a :href="item.route" class="mobile-nav-link" @click="closeMobileNav">
             {{ item.name }}
-          </router-link>
+          </a>
         </li>
       </ul>
     </div>

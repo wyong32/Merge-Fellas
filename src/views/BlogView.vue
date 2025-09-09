@@ -12,10 +12,10 @@
         </p>
 
         <div class="blog-grid">
-          <RouterLink
+          <a
             v-for="post in posts"
             :key="post.id"
-            :to="`/blog/${post.addressBar}`"
+            :href="`/blog/${post.addressBar}`"
             class="blog-card"
           >
             <img
@@ -30,7 +30,7 @@
               <p class="blog-excerpt">{{ post.excerpt }}</p>
               <span class="blog-date">{{ formatDate(post.date) }}</span>
             </div>
-          </RouterLink>
+          </a>
         </div>
       </div>
     </main>

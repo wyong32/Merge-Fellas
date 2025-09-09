@@ -10,11 +10,11 @@
 
         <!-- 游戏列表网格 -->
         <div class="games-grid">
-          <div
+          <a
             v-for="game in gamesList"
             :key="game.id"
             class="game-card"
-            @click="goToGame(game.addressBar)"
+            :href="`/games/${game.addressBar}`"
           >
             <div class="game-image-container">
               <img
@@ -27,7 +27,7 @@
               <div v-if="game.isHot" class="hot-badge">HOT</div>
             </div>
             <h3 class="game-title">{{ game.title }}</h3>
-          </div>
+          </a>
         </div>
       </div>
     </main>
@@ -38,16 +38,10 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import { gamesList } from '@/data'
 
-const router = useRouter()
-
-const goToGame = (addressBar) => {
-  router.push(`/games/${addressBar}`)
-}
 </script>
 
 <style scoped>

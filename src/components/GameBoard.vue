@@ -5,11 +5,11 @@
     <div class="hero-content" :class="{ 'mobile-layout': isMobile }">
       <!-- 左侧游戏列表：仅在桌面端显示 -->
       <div v-if="!isMobile" class="games-sidebar left-games">
-        <div
+        <a
           v-for="game in leftGames"
           :key="game.title"
           class="game-item"
-          @click="handleGameClick(game)"
+          :href="`/games/${game.addressBar}`"
         >
           <img
             :src="game.gameImageSrc"
@@ -21,7 +21,7 @@
           <div class="game-info">
             <span class="game-name">{{ game.title }}</span>
           </div>
-        </div>
+        </a>
       </div>
 
       <!-- 中央iframe区域 -->
@@ -158,11 +158,11 @@
 
       <!-- 右侧游戏列表：仅在桌面端显示 -->
       <div v-if="!isMobile" class="games-sidebar right-games">
-        <div
+        <a
           v-for="game in rightGames"
           :key="game.title"
           class="game-item"
-          @click="handleGameClick(game)"
+          :href="`/games/${game.addressBar}`"
         >
           <img
             :src="game.gameImageSrc"
@@ -174,18 +174,18 @@
           <div class="game-info">
             <span class="game-name">{{ game.title }}</span>
           </div>
-        </div>
+        </a>
       </div>
 
       <!-- 移动端游戏列表：仅在移动端显示 -->
       <div v-if="isMobile" class="mobile-games-section">
         <h2 class="mobile-games-title">More Games</h2>
         <div class="mobile-games-container">
-          <div
+          <a
             v-for="game in mobileGames"
             :key="game.title"
             class="mobile-game-item"
-            @click="handleGameClick(game)"
+            :href="`/games/${game.addressBar}`"
           >
             <img
               :src="game.gameImageSrc"
@@ -195,7 +195,7 @@
               decoding="async"
             />
             <h4 class="mobile-game-name">{{ game.title }}</h4>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -242,9 +242,9 @@ export default {
     },
   },
   methods: {
-    handleGameClick(game) {
-      this.$router.push(`/games/${game.addressBar}`)
-    },
+    // handleGameClick(game) {
+    //   this.$router.push(`/games/${game.addressBar}`)
+    // },
     loadGame() {
       this.gameLoaded = true
     },
